@@ -58,7 +58,7 @@
             La conferencia mundial WiDS (Women in Data Science) tiene como objetivo inspirar y educar a lxs científicxs
             de datos de todo el mundo sin importar su género, así como dar apoyo a las mujeres presentes en la
             industria.
-            Esta conferencia brinda una oportunidad para escuchar acerca de las últimas investigaciones y aplicaciones
+            Esta conferencia brinda la oportunidad de escuchar acerca de las últimas investigaciones y aplicaciones
             relacionadas con la ciencia de datos en distintos dominios y así conectar con otrxs en el campo.
           </p>
           <br/>
@@ -461,6 +461,25 @@
     </div>
   </div>
 
+  <!-- Registro -->
+  <div id="registro" class="section">
+    <div class="container">
+      <div class="column is-12 about-me">
+        <h1 class="title has-text-centered section-title">Registro</h1>
+      </div>
+      <div class="columns is-multiline">
+        <div id="registro-container" class="column is-12 has-vertically-aligned-content" data-aos="fade-right">
+          <br/>
+          <p>Por favor regístrate a través del siguiente enlace. Antes del evento se enviarán las instrucciones para que puedas acceder al mismo.</p>
+          <p>El evento se llevará acabo en la plataforma Euleer el día 26 de Junio y con cupo limitado.</p>
+          <br/>
+          <a class="button is-primary is-large" href="https://docs.google.com/forms/d/e/1FAIpQLScceJ72WnpsP1YTKbNW69JYMdAlGEjy8IxQsj6cTsSgeuIzcg/viewform?usp=sf_link" target="_blank">Regístrate</a>
+          <br/>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   </body>
 </template>
@@ -513,6 +532,10 @@ html, body {
 .table {
   margin-left: auto;
   margin-right: auto;
+}
+
+#registro-container {
+  text-align: center;
 }
 
 .features {
