@@ -5,9 +5,7 @@
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item">
-              <!--              <img class="logo-wids-cdmx" alt="Logo" src="@/assets/logos/wids_cdmx_logo.png">-->
-            </a>
+            <a class="navbar-item"></a>
             <span class="navbar-burger burger" data-target="navbarMenu">
               <span></span>
               <span></span>
@@ -107,7 +105,8 @@
           <td>
             <a href="https://www.youtube.com/watch?v=hdHdVW8eCJ8&list=PLHAk3jHXWpxL5M8AqtSGhfIPH5QeVcvhT&index=7"
                target="_blank">
-              ¿Qué significa tener un algoritmo robusto? Mirar a través de lentes a conjunto de puntos
+              <p>¿Qué significa tener un algoritmo robusto?</p>
+              <p>Mirar a través de lentes a conjunto de puntos</p>
             </a>
           </td>
           <td><a href="#cindy-orozco">Cindy Orozco</a></td>
@@ -136,7 +135,8 @@
           <td>
             <a href="https://www.youtube.com/watch?v=QdVMZXWWQh0&list=PLHAk3jHXWpxL5M8AqtSGhfIPH5QeVcvhT&index=29"
                target="_blank">
-              Visualización de Datos como Medio Exploratorio: de la Percepción Científica a la Expresión Artística
+              <p>Visualización de Datos como Medio Exploratorio:</p>
+              <p>de la Percepción Científica a la Expresión Artística</p>
             </a>
           </td>
           <td>Fernanda Viegas</td>
@@ -483,12 +483,35 @@
 <!--  Footer-->
   <footer class="footer">
     <div class="container">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-        </p>
+      <div id="columns-footer" class="columns has-text-centered">
+        <div class="column is-2">
+          <img class="logo-pyladies-cdmx" src="@/assets/logos/pyladies_logo.png">
+        </div>
+        <div class="column is-1">
+          <p>
+            <a class="link-footer" href="https://www.facebook.com/pyladiescdmx" target="_blank">Facebook</a>
+          </p>
+        </div>
+        <div class="column is-1">
+          <p>
+            <a class="link-footer" href="https://www.instagram.com/pyladiescdmx/" target="_blank">Instagram</a>
+          </p>
+        </div>
+        <div class="column is-1">
+          <p>
+            <a class="link-footer" href="https://twitter.com/mxpyladies" target="_blank">Twitter</a>
+          </p>
+        </div>
+        <div class="column is-1">
+          <p>
+            <a class="link-footer" href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/" target="_blank">Meetup</a>
+          </p>
+        </div>
+        <div class="column is-1">
+          <p>
+            <a class="link-footer" href="mailto: mx@pyladies.com" target="_blank">mx@pyladies.com</a>
+          </p>
+        </div>
       </div>
     </div>
   </footer>
@@ -538,7 +561,12 @@ html, body {
 }
 
 .logo-wids-cdmx {
-  width: 200px;
+  width: 300px;
+  height: 100%;
+}
+
+.logo-pyladies-cdmx {
+  width: 80px;
   height: 100%;
 }
 
@@ -549,16 +577,6 @@ html, body {
 
 #registro-container {
   text-align: center;
-}
-
-.features {
-  padding: 5rem 0;
-}
-
-.box.cta {
-  border-radius: 0;
-  border-left: none;
-  border-right: none;
 }
 
 .card-image > .fa {
@@ -583,38 +601,37 @@ html, body {
   margin-bottom: 2rem;
 }
 
-.intro {
-  padding: 5rem 0;
-  text-align: center;
-}
-
-.sandbox {
-  padding: 5rem 0;
-}
-
-.tile.notification {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.is-shady {
-  animation: flyintoright .4s backwards;
-  background: #fff;
-  box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
-  border-radius: 4px;
-  display: inline-block;
-  margin: 10px;
-  position: relative;
-  transition: all .2s ease-in-out;
-}
-
-.is-shady:hover {
-  box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
-}
-
-/*adds font awesome stars*/
 footer {
+  color: white;
   background-color: #00b140;
+}
+a:link {
+  color: #00b140;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #595959;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #006600;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.link-footer:link{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
 </style>
