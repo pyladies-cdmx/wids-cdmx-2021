@@ -93,13 +93,13 @@
         <tr>
           <td>10:00 a 10:30</td>
           <td>Los datos antes de la ciencia</td>
-          <td href="#teresita-guerrero">Teresita Guerrero</td>
+          <td><a href="#teresita-guerrero">Teresita Guerrero</a></td>
         </tr>
 
         <tr>
           <td>10:30 a 11:00</td>
           <td>Pronósticos con inteligencia artificial</td>
-          <td href="#cristina-ortunio">Cristina Ortuño</td>
+          <td><a href="#cristina-ortunio">Cristina Ortuño</a></td>
         </tr>
 
         <tr>
@@ -110,7 +110,7 @@
               ¿Qué significa tener un algoritmo robusto? Mirar a través de lentes a conjunto de puntos
             </a>
           </td>
-          <td href="#cindy-orozo">Cindy Orozco</td>
+          <td><a href="#cindy-orozco">Cindy Orozco</a></td>
         </tr>
 
         <tr>
@@ -122,13 +122,13 @@
         <tr>
           <td>12:00 a 12:30</td>
           <td>Datos en Publicidad</td>
-          <td href="#silvia-ariza">Silvia Ariza Sentis</td>
+          <td><a href="#silvia-ariza">Silvia Ariza</a></td>
         </tr>
 
         <tr>
           <td>12:30 a 13:00</td>
           <td>TBA</td>
-          <td href="#malitzin-cortes">Malitzin Cortés</td>
+          <td><a href="#malitzin-cortes">Malitzin Cortés</a></td>
         </tr>
 
         <tr>
@@ -139,7 +139,7 @@
               Visualización de Datos como Medio Exploratorio: de la Percepción Científica a la Expresión Artística
             </a>
           </td>
-          <td href="#Fernanda Viegas">Fernanda Viegas</td>
+          <td>Fernanda Viegas</td>
         </tr>
 
         <tr>
@@ -151,13 +151,13 @@
         <tr>
           <td>15:00 a 15:30</td>
           <td>Accesibilidad para la visualización de datos, A11 y DataViz</td>
-          <td href="#magaly-ruiz">Magaly Ruiz</td>
+          <td><a href="#magaly-ruiz">Magaly Ruiz</a></td>
         </tr>
 
         <tr>
           <td>15:30 a 16:00</td>
           <td>La inmunología y R, grandes aliados</td>
-          <td href="#ana-villasenior">Ana Beatriz Villaseñor</td>
+          <td><a href="#ana-villasenior">Ana Beatriz Villaseñor</a></td>
         </tr>
 
         <tr>
@@ -176,12 +176,12 @@
           <td>17:00 a 18:00</td>
           <td>Panel: Ciencia de datos más allá del código</td>
           <td>
-            <p href="#ivete-sanchez">Ivete Sánchez</p>
-            <p href="#angelina-alarcon">Angelina Alarcon</p>
-            <p href="#maria-paz">María de la Paz Rico</p>
-            <p href="#libertad-pantoja">Libertad Pantoja</p>
-            <p href="#ana-villasenior">Ana Beatriz Villaseñor</p>
-            <p href="#karen-nunez">Karen Nuñez</p>
+            <p><a href="#ivete-sanchez">Ivete Sánchez</a></p>
+            <p><a href="#angelina-alarcon">Angelina Alarcon</a></p>
+            <p><a href="#maria-paz">María de la Paz Rico</a></p>
+            <p><a href="#libertad-pantoja">Libertad Pantoja</a></p>
+            <p><a href="#ana-villasenior">Ana Beatriz Villaseñor</a></p>
+            <p><a href="#karen-nunez">Karen Nuñez</a></p>
           </td>
         </tr>
 
@@ -375,7 +375,7 @@
       <!--      Tercer Set-->
       <div class="columns">
         <div class="column is-3">
-          <div id="teresita-guerero" class="card">
+          <div id="teresita-guerrero" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
                 <img src="@/assets/img/user.jpg">
