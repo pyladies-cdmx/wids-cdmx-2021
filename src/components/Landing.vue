@@ -5,8 +5,8 @@
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item" href="../">
-              <img alt="Logo" src="http://bulma.io/images/bulma-type-white.png">
+            <a class="navbar-item">
+<!--              <img class="logo-wids-cdmx" alt="Logo" src="@/assets/logos/wids_cdmx_logo.png">-->
             </a>
             <span class="navbar-burger burger" data-target="navbarMenu">
               <span></span>
@@ -31,8 +31,12 @@
     </div>
     <div class="hero-body">
       <div class="container has-text-centered">
+        <img class="logo-wids-cdmx" alt="Logo" src="@/assets/logos/wids_cdmx_logo.png">
         <h1 class="title">
-          Women in Data Science, Ciudad de México
+          Women in Data Science
+        </h1>
+        <h1 class="title">
+          Ciudad de México
         </h1>
         <h2 class="subtitle">
           27 de junio, 2021 - Evento virtual
@@ -64,6 +68,10 @@ html, body {
   background-color: #00b140;
 }
 
+.hero .navbar {
+  background-color: #00b140;
+}
+
 
 .hero-body .container {
   max-width: 700px;
@@ -77,6 +85,11 @@ html, body {
   color: hsl(192, 17%, 99%) !important;
   padding-top: 2rem;
   line-height: 1.5;
+}
+
+.logo-wids-cdmx {
+  width: 200px;
+  height: 100%;
 }
 
 .features {
