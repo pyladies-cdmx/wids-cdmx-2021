@@ -49,14 +49,17 @@
       <div class="column is-12 about-me">
         <h1 class="title has-text-centered section-title">Acerca de WiDS</h1>
       </div>
+      <br/>
       <div class="columns is-multiline">
         <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
+          <br/>
           <br/>
           <p>
             La conferencia mundial WiDS (Women in Data Science) tiene como objetivo inspirar y educar a lxs científicxs
             de datos de todo el mundo sin importar su género, así como dar apoyo a las mujeres presentes en la
-            industria.
-            Esta conferencia brinda la oportunidad de escuchar acerca de las últimas investigaciones y aplicaciones
+            industria.</p>
+          <br/>
+          <p>Esta conferencia brinda la oportunidad de escuchar acerca de las últimas investigaciones y aplicaciones
             relacionadas con la ciencia de datos en distintos dominios y así conectar con otrxs en el campo.
           </p>
           <br/>
@@ -79,7 +82,7 @@
       <div class="column is-12 about-me">
         <h1 class="title has-text-centered section-title">Agenda</h1>
       </div>
-
+      <br/>
       <table class="table is-striped">
         <tbody>
         <tr>
@@ -202,9 +205,28 @@
       <div class="column is-12 about-me">
         <h1 class="title has-text-centered section-title">Ponentes</h1>
       </div>
+      <br/>
 
-<!--      Primer set-->
+      <!--      Primer set-->
       <div class="columns">
+        <!--        <div class="column is-3">-->
+        <!--          <div id="tzolquin-gardunio" class="card">-->
+        <!--            <div class="card-image">-->
+        <!--              <figure class="image is-4by4">-->
+        <!--                <img src="@/assets/img/user.jpg">-->
+        <!--              </figure>-->
+        <!--            </div>-->
+        <!--            <div class="card-content">-->
+        <!--              <p class="title is-5">Tzolkin Garduño</p>-->
+        <!--              <div class="content">-->
+        <!--                Tzolkin Garduño ha incursionado en las mátemáticas aplicadas al cómputo, en el cómputo aplicado a la-->
+        <!--                medicina, en desarrollo de tecnologías blockchain, aprendizaje de máquina e inteligencia artificial.-->
+        <!--                Todo lo-->
+        <!--                anterior con una perspectiva de aportación y crecimiento social.-->
+        <!--                <br>-->
+        <!--              </div>-->
+        <!--            </div>-->
+        <!--          </div>-->
         <div class="column is-3">
           <div id="tzolquin-gardunio" class="card">
             <div class="card-image">
@@ -213,17 +235,74 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Tzolkin Garduño</p>
-              <div class="content">
-                Tzolkin Garduño ha incursionado en las mátemáticas aplicadas al cómputo, en el cómputo aplicado a la
-                medicina, en desarrollo de tecnologías blockchain, aprendizaje de máquina e inteligencia artificial.
-                Todo lo
-                anterior con una perspectiva de aportación y crecimiento social.
-                <br>
-              </div>
+              <p class="title is-4"><a onclick="document.getElementById('modal-tzolkin').style.display='block'"
+                                       class="nombre-ponente">Tzolkin Garduño</a></p>
             </div>
           </div>
         </div>
+
+        <!--        Modal-->
+
+        <!-- 3dFlipVertical card tiny -->
+        <div id="modal-tzolkin" class="modal modal-fx-3dSlit">
+          <div class="modal-background"></div>
+          <div class="modal-content is-tiny">
+            <!-- content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-3by3">
+                  <img src=src="@/assets/img/user.jpg">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Tzolkin Garduño</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Tzolkin Garduño ha incursionado en las mátemáticas aplicadas al cómputo, en el cómputo aplicado a la
+                  medicina, en desarrollo de tecnologías blockchain, aprendizaje de máquina e inteligencia artificial.
+                  Todo lo anterior con una perspectiva de aportación y crecimiento social.
+                  <br>
+                </div>
+              </div>
+            </div>
+            <!-- end content -->
+          </div>
+          <button class="modal-close is-large" aria-label="close"
+                  onclick="document.getElementById('modal-tzolkin').style.display='none'"></button>
+        </div>
+
+        <!--        <div id="modal-tzolkin" class="modal">-->
+        <!--          <div class="modal-background"></div>-->
+        <!--          <div class="modal-card">-->
+        <!--&lt;!&ndash;            <header class="modal-card-head">&ndash;&gt;-->
+        <!--&lt;!&ndash;              <button onclick="document.getElementById('modal-tzolkin').style.display='none'" class="delete"&ndash;&gt;-->
+        <!--&lt;!&ndash;                      aria-label="close"></button>&ndash;&gt;-->
+        <!--&lt;!&ndash;            </header>&ndash;&gt;-->
+        <!--                      <div class="card">-->
+        <!--                        <div class="card-image">-->
+        <!--                          <figure class="image is-2by2">-->
+        <!--                            <img src="@/assets/img/user.jpg">-->
+        <!--                          </figure>-->
+        <!--                        </div>-->
+        <!--                        <div class="card-content">-->
+        <!--                          <p class="title is-5">Tzolkin Garduño</p>-->
+        <!--                          <div class="content">-->
+        <!--                            Tzolkin Garduño ha incursionado en las mátemáticas aplicadas al cómputo, en el cómputo aplicado a la-->
+        <!--                            medicina, en desarrollo de tecnologías blockchain, aprendizaje de máquina e inteligencia artificial.-->
+        <!--                            Todo lo-->
+        <!--                            anterior con una perspectiva de aportación y crecimiento social.-->
+        <!--                            <br>-->
+        <!--                          </div>-->
+        <!--                        </div>-->
+        <!--                      </div>-->
+        <!--            <button class="modal-close is-large" aria-label="close" onclick="document.getElementById('modal-tzolkin').style.display='none'"></button>-->
+
+        <!--          </div>-->
+        <!--        </div>-->
+
 
         <div class="column is-3 is-collapsible">
           <div id="malitzin-cortes" class="card">
@@ -233,7 +312,7 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Malitzin Cortés</p>
+              <p class="title is-5">Malitzin Cortés</p>
               <div class="content">
                 <p>Su trabajo se desarrolla entre live coding, live cinema, instalación, realidad virtual, creative
                   coding, diseño sonoro , música experimental y arte sonoro.</p>
@@ -268,7 +347,7 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Magaly Ruiz</p>
+              <p class="title is-5">Magaly Ruiz</p>
               <div class="content">
                 <p>Ingeniera electrónica en computación con más de diez años de experiencia creando aplicaciones web. Ha
                   trabajado en equipos pequeños de desarrollo nacionales e internacionales.</p>
@@ -290,9 +369,12 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Libertad Pantoja</p>
+              <p class="title is-5">Libertad Pantoja</p>
               <div class="content">
-                <p>Libertad Pantoja (Ciudad de México, 1987). Estudió la licenciatura en Ciencias Genómicas y el Doctorado en Ciencias Biomédicas en la UNAM. Es egresada del Diplomado en Escritura de Literaria Centro Mexicano de Escritores. Ha sido analista bioinformática y científica de datos. Actualmente se desempeña como escritora técnica y escritora de ficción.</p>
+                <p>Libertad Pantoja (Ciudad de México, 1987). Estudió la licenciatura en Ciencias Genómicas y el
+                  Doctorado en Ciencias Biomédicas en la UNAM. Es egresada del Diplomado en Escritura de Literaria
+                  Centro Mexicano de Escritores. Ha sido analista bioinformática y científica de datos. Actualmente se
+                  desempeña como escritora técnica y escritora de ficción.</p>
                 <br>
               </div>
             </div>
@@ -301,7 +383,7 @@
       </div>
 
 
-<!--      Segundo Set-->
+      <!--      Segundo Set-->
       <div class="columns">
         <div class="column is-3">
           <div id="karen-nunez" class="card">
@@ -311,7 +393,7 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Karen Nuñez</p>
+              <p class="title is-5">Karen Nuñez</p>
               <div class="content">
                 <br>
               </div>
@@ -327,11 +409,21 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Ivette Sánchez</p>
+              <p class="title is-5">Ivette Sánchez</p>
               <div class="content">
-                <p>Ingeniera en Sistemas Computacionales de la Escuela Superior de Cómputo del Instituto Politécnico Nacional. Maestra en Ciencias de la Computación y Matemáticas Industriales por el Centro de Investigación en Matemáticas</p>
-                <p>Trabajó en la industria privada como líder de plataformas de optimización en Prolec-GE.  Cuenta con más de 15 años de experiencia en desarrollo de proyectos de software y de cómputo matemático y transferencia de tecnología.  Sus principales intereses y desarrollos son en las áreas de procesamiento de imágenes, machine learning, optimización, cómputo paralelo, reconocimiento de patrones y modelación numérica. Tiene certificaciones en ITIL, COBIT y como parte de un equipo Scrum Development(CSD), además de formación en Administración de proyectos.  Fue líder institucional por parte del CIMAT en los Nodos Binacionales de Innovación, tanto del Bajío como del Sureste.</p>
-                <p>Actualmente es Coordinadora de Servicios Tecnológicos del Centro de Investigación en Matemáticas y Gerente del Consorcio de Inteligencia Artificial de Centros CONACyT. Alianza conformada por ocho centros públicos de investigación.</p>
+                <p>Ingeniera en Sistemas Computacionales de la Escuela Superior de Cómputo del Instituto Politécnico
+                  Nacional. Maestra en Ciencias de la Computación y Matemáticas Industriales por el Centro de
+                  Investigación en Matemáticas</p>
+                <p>Trabajó en la industria privada como líder de plataformas de optimización en Prolec-GE. Cuenta con
+                  más de 15 años de experiencia en desarrollo de proyectos de software y de cómputo matemático y
+                  transferencia de tecnología. Sus principales intereses y desarrollos son en las áreas de procesamiento
+                  de imágenes, machine learning, optimización, cómputo paralelo, reconocimiento de patrones y modelación
+                  numérica. Tiene certificaciones en ITIL, COBIT y como parte de un equipo Scrum Development(CSD),
+                  además de formación en Administración de proyectos. Fue líder institucional por parte del CIMAT en los
+                  Nodos Binacionales de Innovación, tanto del Bajío como del Sureste.</p>
+                <p>Actualmente es Coordinadora de Servicios Tecnológicos del Centro de Investigación en Matemáticas y
+                  Gerente del Consorcio de Inteligencia Artificial de Centros CONACyT. Alianza conformada por ocho
+                  centros públicos de investigación.</p>
                 <br>
               </div>
             </div>
@@ -346,9 +438,24 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Cristina Ortuño</p>
+              <p class="title is-5">Cristina Ortuño</p>
               <div class="content">
-                <p>Estudió en la Universidad Nacional Autónoma de México la carrera de actuaría y la maestría en estadística. Fue docente por 5 años en temas de simulación y estadística, trabajó en instituciones gubernamentales, en temas de calidad del aire por 16 años, en temas de derechos humanos por 2 años y en la función pública por 2 años; durante este tiempo sus principales actividades fueron la verificación y validación de datos, la generación de indicadores, modelación y análisis de encuestas. Posteriormente, por 7 años se desempeñó como consultora independiente desarrollando proyectos a nivel nacional y colaboró con varias consultorías para desarrollar proyectos nacionales e internacionales en temas de gestión ambiental (calidad del aire, inventarios de emisiones) y otorgó cursos de capacitación de manejo de datos y generación de indicadores. En el último año estudió temas de inteligencia artificial y programación de lenguaje natural; obtuvo con su equipo el tercer lugar por desarrollar un modelo de pronóstico de concentración de partículas finas en la primera edición de AI Saturdays Latam; participó en un hackathon de cambio climático organizado por el gobierno de Canadá y AI Launch Lab, donde ella y su equipo fueron ganadores en la categoría de pronóstico de demanda de energía eólica. Actualmente trabaja como científica de datos en el Instituto Mexicano para la Competitividad, una asociación civil que desarrolla proyectos de investigación encaminados a evaluar la competitividad del país.</p>
+                <p>Estudió en la Universidad Nacional Autónoma de México la carrera de actuaría y la maestría en
+                  estadística. Fue docente por 5 años en temas de simulación y estadística, trabajó en instituciones
+                  gubernamentales, en temas de calidad del aire por 16 años, en temas de derechos humanos por 2 años y
+                  en la función pública por 2 años; durante este tiempo sus principales actividades fueron la
+                  verificación y validación de datos, la generación de indicadores, modelación y análisis de encuestas.
+                  Posteriormente, por 7 años se desempeñó como consultora independiente desarrollando proyectos a nivel
+                  nacional y colaboró con varias consultorías para desarrollar proyectos nacionales e internacionales en
+                  temas de gestión ambiental (calidad del aire, inventarios de emisiones) y otorgó cursos de
+                  capacitación de manejo de datos y generación de indicadores. En el último año estudió temas de
+                  inteligencia artificial y programación de lenguaje natural; obtuvo con su equipo el tercer lugar por
+                  desarrollar un modelo de pronóstico de concentración de partículas finas en la primera edición de AI
+                  Saturdays Latam; participó en un hackathon de cambio climático organizado por el gobierno de Canadá y
+                  AI Launch Lab, donde ella y su equipo fueron ganadores en la categoría de pronóstico de demanda de
+                  energía eólica. Actualmente trabaja como científica de datos en el Instituto Mexicano para la
+                  Competitividad, una asociación civil que desarrolla proyectos de investigación encaminados a evaluar
+                  la competitividad del país.</p>
                 <br>
               </div>
             </div>
@@ -363,7 +470,7 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Cindy Orozco</p>
+              <p class="title is-5">Cindy Orozco</p>
               <div class="content">
                 <br>
               </div>
@@ -382,7 +489,7 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Teresita Guerrero</p>
+              <p class="title is-5">Teresita Guerrero</p>
               <div class="content">
                 <br>
               </div>
@@ -398,7 +505,7 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Silvia Ariza</p>
+              <p class="title is-5">Silvia Ariza</p>
               <div class="content">
                 <br>
               </div>
@@ -414,7 +521,7 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Ana Beatriz Villaseñor</p>
+              <p class="title is-5">Ana Beatriz Villaseñor</p>
               <div class="content">
                 <br>
               </div>
@@ -430,7 +537,7 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Angelina Alarcón</p>
+              <p class="title is-5">Angelina Alarcón</p>
               <div class="content">
                 <br>
               </div>
@@ -441,6 +548,7 @@
 
       <!--      Cuarto set-->
       <div class="columns">
+
         <div class="column is-3">
           <div id="maria-paz" class="card">
             <div class="card-image">
@@ -449,14 +557,14 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4">Maria de la Paz Rico</p>
+              <p class="title is-5">Maria de la Paz Rico</p>
               <div class="content">
                 <br>
               </div>
             </div>
           </div>
         </div>
-        </div>
+      </div>
 
     </div>
   </div>
@@ -470,11 +578,14 @@
       <div class="columns is-multiline">
         <div id="registro-container" class="column is-12 has-vertically-aligned-content" data-aos="fade-right">
           <br/>
-          <p>Por favor regístrate a través del siguiente enlace. Antes del evento se enviarán las instrucciones para que puedas acceder al mismo.</p>
+          <p>Por favor regístrate a través del siguiente enlace. Antes del evento se enviarán las instrucciones para que
+            puedas acceder al mismo.</p>
           <p>El evento se llevará acabo en la plataforma Euleer el día 26 de Junio y con cupo limitado.</p>
           <br/>
           <button class="button is-dark is-large">
-            <a class="boton-registro" href="https://docs.google.com/forms/d/e/1FAIpQLScceJ72WnpsP1YTKbNW69JYMdAlGEjy8IxQsj6cTsSgeuIzcg/viewform?usp=sf_link" target="_blank">
+            <a class="boton-registro"
+               href="https://docs.google.com/forms/d/e/1FAIpQLScceJ72WnpsP1YTKbNW69JYMdAlGEjy8IxQsj6cTsSgeuIzcg/viewform?usp=sf_link"
+               target="_blank">
               Regístrate
             </a>
           </button>
@@ -484,7 +595,7 @@
     </div>
   </div>
 
-<!--  Footer-->
+  <!--  Footer-->
   <footer class="footer">
     <div class="container">
       <div id="columns-footer" class="columns has-text-centered">
@@ -535,11 +646,16 @@ export default {
 html, body {
   background: #EFF3F4;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .hero-body {
   /*background-image: url("/src/assets/cdmx-150027_1280.png");*/
   background-color: #00b140;
+  height: 100vh;
 }
 
 .hero .navbar {
@@ -585,6 +701,7 @@ html, body {
   padding-top: 2rem;
   padding-bottom: 2rem;
   color: #209cee;
+  width: 200px;
 }
 
 .card-content .content {
@@ -592,7 +709,7 @@ html, body {
   margin: 1rem 1rem;
 }
 
-.card-content .content h4 {
+.card-content .content h5 {
   font-size: 16px;
   font-weight: 700;
 }
@@ -606,6 +723,7 @@ footer {
   color: white;
   background-color: #00b140;
 }
+
 a:link {
   color: #00b140;
   background-color: transparent;
@@ -630,27 +748,30 @@ a:active {
   text-decoration: underline;
 }
 
-a.link-footer:link{
+a.link-footer:link {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
+
 a.link-footer:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
-a.boton-registro:link{
+a.boton-registro:link {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
+
 a.boton-registro:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
+
 a.boton-registro:hover {
   color: lightgrey;
   background-color: transparent;
