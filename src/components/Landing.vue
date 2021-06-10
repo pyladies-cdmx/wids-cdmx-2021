@@ -46,7 +46,7 @@
   </section>
 
   <!-- Acerca de Wids -->
-  <div id="about-wids" class="section-light about-me">
+  <div id="about-wids" class="section about-me">
     <div class="container">
       <div class="column is-12 about-me">
         <h1 class="title has-text-centered section-title">Acerca de WiDS</h1>
@@ -65,7 +65,8 @@
           <div class="is-divider"></div>
         </div>
         <div class="column is-6 right-image " data-aos="fade-left">
-          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0" height="315"
+          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen frameborder="0" height="315"
                   src="https://www.youtube.com/embed/yObQ-odcIKc"
                   title="YouTube video player"
                   width="560"></iframe>
@@ -75,7 +76,7 @@
   </div>
 
   <!-- Agenda -->
-  <div id="agenda" class="section-light about-me">
+  <div id="agenda" class="section">
     <div class="container">
       <div class="column is-12 about-me">
         <h1 class="title has-text-centered section-title">Agenda</h1>
@@ -92,23 +93,24 @@
         <tr>
           <td>10:00 a 10:30</td>
           <td>Los datos antes de la ciencia</td>
-          <td id="teresita-guerrero">Teresita Guerrero</td>
+          <td href="#teresita-guerrero">Teresita Guerrero</td>
         </tr>
 
         <tr>
           <td>10:30 a 11:00</td>
           <td>Pronósticos con inteligencia artificial</td>
-          <td id="cristina-ortunio">Cristina Ortuño</td>
+          <td href="#cristina-ortunio">Cristina Ortuño</td>
         </tr>
 
         <tr>
           <td>11:00 a 11:30</td>
           <td>
-            <a href="https://www.youtube.com/watch?v=hdHdVW8eCJ8&list=PLHAk3jHXWpxL5M8AqtSGhfIPH5QeVcvhT&index=7" target="_blank">
+            <a href="https://www.youtube.com/watch?v=hdHdVW8eCJ8&list=PLHAk3jHXWpxL5M8AqtSGhfIPH5QeVcvhT&index=7"
+               target="_blank">
               ¿Qué significa tener un algoritmo robusto? Mirar a través de lentes a conjunto de puntos
             </a>
           </td>
-          <td id="cindy-orozo">Cindy Orozco</td>
+          <td href="#cindy-orozo">Cindy Orozco</td>
         </tr>
 
         <tr>
@@ -120,23 +122,24 @@
         <tr>
           <td>12:00 a 12:30</td>
           <td>Datos en Publicidad</td>
-          <td id="silvia-ariza">Silvia Ariza Sentis</td>
+          <td href="#silvia-ariza">Silvia Ariza Sentis</td>
         </tr>
 
         <tr>
           <td>12:30 a 13:00</td>
           <td>TBA</td>
-          <td id="malitzin-cortes">Malitzin Cortés</td>
+          <td href="#malitzin-cortes">Malitzin Cortés</td>
         </tr>
 
         <tr>
           <td>13:00 a 13:30</td>
           <td>
-            <a href="https://www.youtube.com/watch?v=QdVMZXWWQh0&list=PLHAk3jHXWpxL5M8AqtSGhfIPH5QeVcvhT&index=29" target="_blank">
+            <a href="https://www.youtube.com/watch?v=QdVMZXWWQh0&list=PLHAk3jHXWpxL5M8AqtSGhfIPH5QeVcvhT&index=29"
+               target="_blank">
               Visualización de Datos como Medio Exploratorio: de la Percepción Científica a la Expresión Artística
             </a>
           </td>
-          <td id="Fernanda Viegas">Fernanda Viegas</td>
+          <td href="#Fernanda Viegas">Fernanda Viegas</td>
         </tr>
 
         <tr>
@@ -148,19 +151,19 @@
         <tr>
           <td>15:00 a 15:30</td>
           <td>Accesibilidad para la visualización de datos, A11 y DataViz</td>
-          <td id="magaly-ruiz">Magaly Ruiz</td>
+          <td href="#magaly-ruiz">Magaly Ruiz</td>
         </tr>
 
         <tr>
           <td>15:30 a 16:00</td>
           <td>La inmunología y R, grandes aliados</td>
-          <td id="ana-villasenior">Ana Beatriz Villaseñor</td>
+          <td href="#ana-villasenior">Ana Beatriz Villaseñor</td>
         </tr>
 
         <tr>
           <td>16:00 a 16:30</td>
           <td>Creando un app de descarga de series de tiempo financieras</td>
-          <td id="tzolquin-gardunio">Tzolquin Garduño</td>
+          <td><a href="#tzolquin-gardunio">Tzolquin Garduño</a></td>
         </tr>
 
         <tr>
@@ -172,13 +175,13 @@
         <tr>
           <td>17:00 a 18:00</td>
           <td>Panel: Ciencia de datos más allá del código</td>
-          <td id="panel">
-            <p>Ivete Sánchez</p>
-            <p>Angelina Alarcon</p>
-            <p>María de la Paz Rico</p>
-            <p>Libertad Pantoja</p>
-            <p>Ana Beatriz Villaseñor</p>
-            <p>Karen Nuñez</p>
+          <td>
+            <p href="#ivete-sanchez">Ivete Sánchez</p>
+            <p href="#angelina-alarcon">Angelina Alarcon</p>
+            <p href="#maria-paz">María de la Paz Rico</p>
+            <p href="#libertad-pantoja">Libertad Pantoja</p>
+            <p href="#ana-villasenior">Ana Beatriz Villaseñor</p>
+            <p href="#karen-nunez">Karen Nuñez</p>
           </td>
         </tr>
 
@@ -189,6 +192,62 @@
         </tr>
         </tbody>
       </table>
+    </div>
+  </div>
+
+
+  <!-- Ponentes -->
+  <div id="ponentes" class="section">
+    <div class="container">
+      <div class="column is-12 about-me">
+        <h1 class="title has-text-centered section-title">Ponentes</h1>
+      </div>
+
+      <div class="columns">
+        <div class="column is-3">
+          <div id="tzolquin-gardunio" class="card">
+            <div class="card-image">
+              <figure class="image is-4by4">
+                <img src="@/assets/img/user.jpg">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Tzolkin Garduño</p>
+              <div class="content">
+                Tzolkin Garduño ha incursionado en las mátemáticas aplicadas al cómputo, en el cómputo aplicado a la
+                medicina, en desarrollo de tecnologías blockchain, aprendizaje de máquina e inteligencia artificial.
+                Todo lo
+                anterior con una perspectiva de aportación y crecimiento social.
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-3 is-collapsible">
+          <div id="malitzin-cortes" class="card">
+            <div class="card-image">
+              <figure class="image is-4by4">
+                <img src="@/assets/img/user.jpg">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Malitzin Cortés</p>
+              <div class="content">
+                <p>Su trabajo se desarrolla entre live coding, live cinema, instalación, realidad virtual, creative coding, diseño sonoro , música experimental y arte sonoro.</p>
+                <p>Es profesora e investigadora de la Universidad <i>CENTRO - Diseño, Cine y Televisión</i> en el campo del código creativo, STEAM y nuevas tecnologías de sonido e inmersivas. En 2020 recibió el premio Latinoamericano de Realidad Virtual “Realmix” con la pieza inmersiva “Hyper_D”.</p>
+                <p>Actualmente imparte el taller de live coding con programación funcional, Tidal cycles, en la plataforma de educación con linea del CMMAS.</p>
+                <p>Ha realizado eventos en vivo y exposiciones en el Centro Multimedia, Laboratorio de Arte Alameda, Arte Actual Ex-Teresa, Centro Cultural Digital, Medialab Prado, Centro Cultural de España, CMMAS, Vorspiel, Spektrum Berlin, Transpiksel, Aural, Transmediale Berlin, ISEA, CYLAND MediaArtLab San Petesburgo, ADAF, Ars Electronica, Currents, MUTEK México, Montreal y Japón.</p>
+                <p>La propuesta sonora del CNDSD se concibe en un ambiente experimental y ejercicios musicales transfronterizos: paisajes granulares, experimentos vocales algorítmicos, improvisaciones de ruido hipnótico, codificación en vivo y patrones asimétricos.</p>
+                <p>Como artista, investiga las formas en que el arte, la arquitectura, la tecnología y la ciencia tienen la capacidad de ser grandes divulgadores de hallazgos y dispositivos de autorreflexión y generación de modelos inéditos de interacciones sociales capaces de brindar nuevas formas de relacionarse desde el utopía, especulación, espacio físico, realidad, el constante estado de crisis y también de esperanza.</p>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
 
     </div>
   </div>
