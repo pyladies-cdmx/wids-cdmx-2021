@@ -473,7 +473,11 @@
           <p>Por favor regístrate a través del siguiente enlace. Antes del evento se enviarán las instrucciones para que puedas acceder al mismo.</p>
           <p>El evento se llevará acabo en la plataforma Euleer el día 26 de Junio y con cupo limitado.</p>
           <br/>
-          <a class="button is-primary is-large" href="https://docs.google.com/forms/d/e/1FAIpQLScceJ72WnpsP1YTKbNW69JYMdAlGEjy8IxQsj6cTsSgeuIzcg/viewform?usp=sf_link" target="_blank">Regístrate</a>
+          <button class="button is-dark is-large">
+            <a class="boton-registro" href="https://docs.google.com/forms/d/e/1FAIpQLScceJ72WnpsP1YTKbNW69JYMdAlGEjy8IxQsj6cTsSgeuIzcg/viewform?usp=sf_link" target="_blank">
+              Regístrate
+            </a>
+          </button>
           <br/>
         </div>
       </div>
@@ -523,9 +527,6 @@
 <script>
 export default {
   name: 'Landing',
-  // props: {
-  //   msg: String
-  // }
 }
 </script>
 
@@ -612,7 +613,7 @@ a:link {
 }
 
 a:visited {
-  color: #595959;
+  color: #9494b8;
   background-color: transparent;
   text-decoration: none;
 }
@@ -624,7 +625,7 @@ a:hover {
 }
 
 a:active {
-  color: yellow;
+  color: white;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -633,5 +634,26 @@ a.link-footer:link{
   color: white;
   background-color: transparent;
   text-decoration: none;
+}
+a.link-footer:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.boton-registro:link{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.boton-registro:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.boton-registro:hover {
+  color: lightgrey;
+  background-color: transparent;
+  text-decoration: underline;
 }
 </style>
