@@ -259,7 +259,7 @@
           <div id="malitzin-cortes" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/user.jpg">
               </figure>
             </div>
             <div class="card-content">
