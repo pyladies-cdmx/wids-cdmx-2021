@@ -735,7 +735,20 @@
 <script>
 export default {
   name: 'Landing',
+  mounted() {
+    (function() {
+      var burger = document.querySelector('.burger');
+      var menu = document.querySelector('#'+burger.dataset.target);
+      burger.addEventListener('click', function() {
+        burger.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+      });
+    })();
+  }
 }
+
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -756,6 +769,11 @@ html, body {
 }
 
 .hero .navbar {
+  background-color: #00b140;
+}
+
+.hero .navbar-menu {
+  background-image: linear-gradient(141deg,#00b140 0,#00b140 50%,#00b140 100%) !important;
   background-color: #00b140;
 }
 
