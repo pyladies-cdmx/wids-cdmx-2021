@@ -211,15 +211,15 @@
       <div class="columns">
         <div class="column is-3">
           <div id="tzolquin-gardunio" class="card">
-            <div class="card-image">
+            <div class="card-image is-4by4">
               <figure class="image is-4by4">
-                <img class="imagen-ponente" src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/tzolkin_gardunio.jpeg">
               </figure>
             </div>
             <div class="card-content">
               <p class="title is-4 has-text-centered">
                 <a onclick="document.getElementById('modal-tzolkin').style.display='block'">
-                  Tzolkin Garduño
+                  Tzolquin Garduño
                 </a>
               </p>
             </div>
@@ -229,15 +229,15 @@
         <div id="modal-tzolkin" class="modal">
           <div class="modal-background"></div>
           <div class="modal-content is-tiny">
-            <div class="card is-12">
-              <div class="card-image">
+            <div class="card interno">
+              <div class="card-image interno">
                 <figure class="image">
-                  <img class="imagen-ponente-interna" src="@/assets/img/user.jpg">
+                  <img class="imagen-ponente-interna" src="@/assets/img/tzolkin_gardunio.jpeg">
                 </figure>
               </div>
               <div class="card-content">
                 <div class="media">
-                  <div class="media-content">
+                  <div class="content">
                     <p class="title is-4">Tzolkin Garduño</p>
                   </div>
                 </div>
@@ -257,9 +257,9 @@
 
         <div class="column is-3">
           <div id="malitzin-cortes" class="card">
-            <div class="card-image">
+            <div class="card-image is4by4">
               <figure class="image is-4by4">
-                <img class="imagen-ponente" src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/malitzin_cortes.jpg">
               </figure>
             </div>
             <div class="card-content">
@@ -275,15 +275,15 @@
         <div id="modal-malitzin" class="modal">
           <div class="modal-background"></div>
           <div class="modal-content is-tiny">
-            <div class="card is-12">
-              <div class="card-image">
+            <div class="card interno">
+              <div class="card-image interno">
                 <figure class="image">
-                  <img class="imagen-ponente-interna" src="@/assets/img/user.jpg">
+                  <img class="imagen-ponente-interna" src="@/assets/img/malitzin_cortes.jpg">
                 </figure>
               </div>
               <div class="card-content">
                 <div class="media">
-                  <div class="media-content">
+                  <div class="content">
                     <p class="title is-4">Malitzin Cortés</p>
                   </div>
                 </div>
@@ -313,44 +313,41 @@
             </div>
           </div>
           <button class="modal-close is-large" aria-label="close"
-                  onclick="document.getElementById('modal-malitzin').style.display='none'"></button>
+                  onclick="document.getElementById('modal-magaly').style.display='none'"></button>
         </div>
-
-<!--              <div class="content">-->
-<!--                <p>Su trabajo se desarrolla entre live coding, live cinema, instalación, realidad virtual, creative-->
-<!--                  coding, diseño sonoro , música experimental y arte sonoro.</p>-->
-<!--                <p>Es profesora e investigadora de la Universidad <i>CENTRO - Diseño, Cine y Televisión</i> en el campo-->
-<!--                  del código creativo, STEAM y nuevas tecnologías de sonido e inmersivas. En 2020 recibió el premio-->
-<!--                  Latinoamericano de Realidad Virtual “Realmix” con la pieza inmersiva “Hyper_D”.</p>-->
-<!--                <p>Actualmente imparte el taller de live coding con programación funcional, Tidal cycles, en la-->
-<!--                  plataforma de educación con linea del CMMAS.</p>-->
-<!--                <p>Ha realizado eventos en vivo y exposiciones en el Centro Multimedia, Laboratorio de Arte Alameda,-->
-<!--                  Arte Actual Ex-Teresa, Centro Cultural Digital, Medialab Prado, Centro Cultural de España, CMMAS,-->
-<!--                  Vorspiel, Spektrum Berlin, Transpiksel, Aural, Transmediale Berlin, ISEA, CYLAND MediaArtLab San-->
-<!--                  Petesburgo, ADAF, Ars Electronica, Currents, MUTEK México, Montreal y Japón.</p>-->
-<!--                <p>La propuesta sonora del CNDSD se concibe en un ambiente experimental y ejercicios musicales-->
-<!--                  transfronterizos: paisajes granulares, experimentos vocales algorítmicos, improvisaciones de ruido-->
-<!--                  hipnótico, codificación en vivo y patrones asimétricos.</p>-->
-<!--                <p>Como artista, investiga las formas en que el arte, la arquitectura, la tecnología y la ciencia tienen-->
-<!--                  la capacidad de ser grandes divulgadores de hallazgos y dispositivos de autorreflexión y generación de-->
-<!--                  modelos inéditos de interacciones sociales capaces de brindar nuevas formas de relacionarse desde el-->
-<!--                  utopía, especulación, espacio físico, realidad, el constante estado de crisis y también de-->
-<!--                  esperanza.</p>-->
-<!--                <br>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
 
         <div class="column is-3">
           <div id="magaly-ruiz" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/magaly_ruiz.jpg">
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">Magaly Ruiz</p>
+              <p class="title is-4 has-text-centered">
+                <a onclick="document.getElementById('modal-magaly').style.display='block'">
+                Magaly Ruiz
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-magaly" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content is-tiny">
+          <div class="card interno">
+            <div class="card-image interno">
+              <figure class="image">
+                <img class="imagen-ponente-interna" src="@/assets/img/magaly_ruiz.jpg">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="content">
+                  <p class="title is-4">Magaly Ruiz</p>
+                </div>
+              </div>
               <div class="content">
                 <p>Ingeniera electrónica en computación con más de diez años de experiencia creando aplicaciones web. Ha
                   trabajado en equipos pequeños de desarrollo nacionales e internacionales.</p>
@@ -363,40 +360,75 @@
             </div>
           </div>
         </div>
+        <button aria-label="close" class="modal-close is-large"
+                onclick="document.getElementById('modal-magaly').style.display='none'"></button>
+      </div>
+
 
         <div class="column is-3">
           <div id="libertad-pantoja" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/libertad_pantoja.jpg">
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">Libertad Pantoja</p>
-              <div class="content">
-                <p>Libertad Pantoja (Ciudad de México, 1987). Estudió la licenciatura en Ciencias Genómicas y el
-                  Doctorado en Ciencias Biomédicas en la UNAM. Es egresada del Diplomado en Escritura de Literaria
-                  Centro Mexicano de Escritores. Ha sido analista bioinformática y científica de datos. Actualmente se
-                  desempeña como escritora técnica y escritora de ficción.</p>
-                <br>
+              <p class="title is-4 has-text-centered">
+                <a onclick="document.getElementById('modal-libertad').style.display='block'">
+                  Libertad Pantoja
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal-libertad" class="modal">
+          <div class="modal-background"></div>
+          <div class="modal-content is-tiny">
+            <div class="card interno">
+              <div class="card-image interno">
+                <figure class="image">
+                  <img class="imagen-ponente-interna" src="@/assets/img/libertad_pantoja.jpg">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="content">
+                    <p class="title is-4">Libertad Pantoja</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>Estudió la licenciatura en Ciencias Genómicas y el
+                    Doctorado en Ciencias Biomédicas en la UNAM. Es egresada del Diplomado en Escritura Literaria del
+                    Centro Mexicano de Escritores. Ha sido analista bioinformática y científica de datos. Actualmente se
+                    desempeña como escritora técnica y escritora de ficción.</p>
+                  <br>
+                </div>
               </div>
             </div>
           </div>
+          <button aria-label="close" class="modal-close is-large"
+                  onclick="document.getElementById('modal-libertad').style.display='none'"></button>
         </div>
       </div>
 
 
       <!--      Segundo Set-->
       <div class="columns">
+
         <div class="column is-3">
           <div id="karen-nunez" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/karen_nunez.jpg">
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">Karen Nuñez</p>
+              <p class="title is-4 has-text-centered">
+<!--                <a onclick="document.getElementById('modal-Karen').style.display='block'">-->
+                  Karen Nuñez
+<!--                </a>-->
+              </p>
               <div class="content">
                 <br>
               </div>
@@ -408,30 +440,76 @@
           <div id="ivete-sanchez" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/ivete_sanchez.jpeg">
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">Ivette Sánchez</p>
+              <p class="title is-4 has-text-centered">
+                <a onclick="document.getElementById('modal-ivete').style.display='block'">
+                Ivette Sánchez
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="modal-ivete" class="modal">
+          <div class="modal-background"></div>
+          <div class="modal-content is-tiny">
+            <div class="card interno">
+              <div class="card-image interno">
+                <figure class="image">
+                  <img class="imagen-ponente-interna" src="@/assets/img/ivete_sanchez.jpeg">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="content">
+                    <p class="title is-4">Ivette Sánchez</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>Ingeniera en Sistemas Computacionales de la Escuela Superior de Cómputo del Instituto Politécnico
+                    Nacional. Maestra en Ciencias de la Computación y Matemáticas Industriales por el Centro de
+                    Investigación en Matemáticas</p>
+                  <p>Trabajó en la industria privada como líder de plataformas de optimización en Prolec-GE. Cuenta con
+                    más de 15 años de experiencia en desarrollo de proyectos de software y de cómputo matemático y
+                    transferencia de tecnología. Sus principales intereses y desarrollos son en las áreas de procesamiento
+                    de imágenes, machine learning, optimización, cómputo paralelo, reconocimiento de patrones y modelación
+                    numérica. Tiene certificaciones en ITIL, COBIT y como parte de un equipo Scrum Development(CSD),
+                    además de formación en Administración de proyectos. Fue líder institucional por parte del CIMAT en los
+                    Nodos Binacionales de Innovación, tanto del Bajío como del Sureste.</p>
+                  <p>Actualmente es Coordinadora de Servicios Tecnológicos del Centro de Investigación en Matemáticas y
+                    Gerente del Consorcio de Inteligencia Artificial de Centros CONACyT. Alianza conformada por ocho
+                    centros públicos de investigación.</p>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button aria-label="close" class="modal-close is-large"
+                  onclick="document.getElementById('modal-ivete').style.display='none'"></button>
+        </div>
+
+        <div class="column is-3">
+          <div id="cindy-orozco" class="card">
+            <div class="card-image">
+              <figure class="image is-4by4">
+                <img class="imagen-ponente" src="@/assets/img/user.jpg">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4 has-text-centered">
+<!--                <a onclick="document.getElementById('modal-cindy').style.display='block'">-->
+                Cindy Orozco
+<!--                </a>-->
+              </p>
               <div class="content">
-                <p>Ingeniera en Sistemas Computacionales de la Escuela Superior de Cómputo del Instituto Politécnico
-                  Nacional. Maestra en Ciencias de la Computación y Matemáticas Industriales por el Centro de
-                  Investigación en Matemáticas</p>
-                <p>Trabajó en la industria privada como líder de plataformas de optimización en Prolec-GE. Cuenta con
-                  más de 15 años de experiencia en desarrollo de proyectos de software y de cómputo matemático y
-                  transferencia de tecnología. Sus principales intereses y desarrollos son en las áreas de procesamiento
-                  de imágenes, machine learning, optimización, cómputo paralelo, reconocimiento de patrones y modelación
-                  numérica. Tiene certificaciones en ITIL, COBIT y como parte de un equipo Scrum Development(CSD),
-                  además de formación en Administración de proyectos. Fue líder institucional por parte del CIMAT en los
-                  Nodos Binacionales de Innovación, tanto del Bajío como del Sureste.</p>
-                <p>Actualmente es Coordinadora de Servicios Tecnológicos del Centro de Investigación en Matemáticas y
-                  Gerente del Consorcio de Inteligencia Artificial de Centros CONACyT. Alianza conformada por ocho
-                  centros públicos de investigación.</p>
                 <br>
               </div>
             </div>
           </div>
         </div>
+
 
         <div class="column is-3">
           <div id="cristina-ortunio" class="card">
@@ -465,21 +543,7 @@
           </div>
         </div>
 
-        <div class="column is-3">
-          <div id="cindy-orozco" class="card">
-            <div class="card-image">
-              <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
-              </figure>
-            </div>
-            <div class="card-content">
-              <p class="title is-5">Cindy Orozco</p>
-              <div class="content">
-                <br>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
 
       <!--      Tercer Set-->
@@ -702,8 +766,16 @@ html, body {
 .card-image {
   background-color: #EFF3F4;
   font-size: 8rem;
-  /*padding-top: 2rem;*/
-  /*padding-bottom: 2rem;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.card-image.interno {
+  background-color: #EFF3F4;
+  font-size: 8rem;
+  padding-top: 0.1rem;
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -722,19 +794,38 @@ html, body {
 .card {
   background-color: #EFF3F4;
   box-shadow: none;
-  /*box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);*/
-  /*margin-bottom: 2rem;*/
+}
+
+.card.interno {
+  background-color: #EFF3F4;
+  box-shadow: none;
+  max-width: 80vw;
 }
 
 img.imagen-ponente {
+  width: 259px;
+  height: 259px;
+  object-fit: cover;
   border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.imagen-ponente-interna {
+  width: 259px;
+  height: 259px;
+  object-fit: cover;
   border-radius: 50%;
-  width: 60%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  /*width: 259px;*/
+  /*height: 259px;*/
+  /*object-fit: cover;*/
+  /*border-radius: 50%;*/
+  /*!*width: 60%;*!*/
+  /*padding-top: 2rem;*/
+  /*padding-bottom: 2rem;*/
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
 }
