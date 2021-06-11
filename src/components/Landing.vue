@@ -290,7 +290,8 @@
                 <div class="content">
                   <p>Su trabajo se desarrolla entre live coding, live cinema, instalación, realidad virtual, creative
                     coding, diseño sonoro , música experimental y arte sonoro.</p>
-                  <p>Es profesora e investigadora de la Universidad <i>CENTRO - Diseño, Cine y Televisión</i> en el campo
+                  <p>Es profesora e investigadora de la Universidad <i>CENTRO - Diseño, Cine y Televisión</i> en el
+                    campo
                     del código creativo, STEAM y nuevas tecnologías de sonido e inmersivas. En 2020 recibió el premio
                     Latinoamericano de Realidad Virtual “Realmix” con la pieza inmersiva “Hyper_D”.</p>
                   <p>Actualmente imparte el taller de live coding con programación funcional, Tidal cycles, en la
@@ -302,8 +303,10 @@
                   <p>La propuesta sonora del CNDSD se concibe en un ambiente experimental y ejercicios musicales
                     transfronterizos: paisajes granulares, experimentos vocales algorítmicos, improvisaciones de ruido
                     hipnótico, codificación en vivo y patrones asimétricos.</p>
-                  <p>Como artista, investiga las formas en que el arte, la arquitectura, la tecnología y la ciencia tienen
-                    la capacidad de ser grandes divulgadores de hallazgos y dispositivos de autorreflexión y generación de
+                  <p>Como artista, investiga las formas en que el arte, la arquitectura, la tecnología y la ciencia
+                    tienen
+                    la capacidad de ser grandes divulgadores de hallazgos y dispositivos de autorreflexión y generación
+                    de
                     modelos inéditos de interacciones sociales capaces de brindar nuevas formas de relacionarse desde el
                     utopía, especulación, espacio físico, realidad, el constante estado de crisis y también de
                     esperanza.</p>
@@ -312,8 +315,8 @@
               </div>
             </div>
           </div>
-          <button class="modal-close is-large" aria-label="close"
-                  onclick="document.getElementById('modal-magaly').style.display='none'"></button>
+          <button aria-label="close" class="modal-close is-large"
+                  onclick="document.getElementById('modal-malitzin').style.display='none'"></button>
         </div>
 
         <div class="column is-3">
@@ -326,7 +329,7 @@
             <div class="card-content">
               <p class="title is-4 has-text-centered">
                 <a onclick="document.getElementById('modal-magaly').style.display='block'">
-                Magaly Ruiz
+                  Magaly Ruiz
                 </a>
               </p>
             </div>
@@ -334,35 +337,37 @@
         </div>
 
         <div id="modal-magaly" class="modal">
-        <div class="modal-background"></div>
-        <div class="modal-content is-tiny">
-          <div class="card interno">
-            <div class="card-image interno">
-              <figure class="image">
-                <img class="imagen-ponente-interna" src="@/assets/img/magaly_ruiz.jpg">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="content">
-                  <p class="title is-4">Magaly Ruiz</p>
-                </div>
+          <div class="modal-background"></div>
+          <div class="modal-content is-tiny">
+            <div class="card interno">
+              <div class="card-image interno">
+                <figure class="image">
+                  <img class="imagen-ponente-interna" src="@/assets/img/magaly_ruiz.jpg">
+                </figure>
               </div>
-              <div class="content">
-                <p>Ingeniera electrónica en computación con más de diez años de experiencia creando aplicaciones web. Ha
-                  trabajado en equipos pequeños de desarrollo nacionales e internacionales.</p>
-                <p>Actualmente forma parte del equipo de trabajo de la Subdirección de Visualización de Datos del
-                  CONACYT y es Líder Técnica del equipo de desarrollo de la Dirección de Análisis de la Información. Ahí
-                  colabora en la creación de micrositios, visualizaciones y reportes de datos, para la difusión de
-                  investigaciones en torno a problemáticas nacionales</p>
-                <br>
+              <div class="card-content">
+                <div class="media">
+                  <div class="content">
+                    <p class="title is-4">Magaly Ruiz</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>Ingeniera electrónica en computación con más de diez años de experiencia creando aplicaciones web.
+                    Ha
+                    trabajado en equipos pequeños de desarrollo nacionales e internacionales.</p>
+                  <p>Actualmente forma parte del equipo de trabajo de la Subdirección de Visualización de Datos del
+                    CONACYT y es Líder Técnica del equipo de desarrollo de la Dirección de Análisis de la Información.
+                    Ahí
+                    colabora en la creación de micrositios, visualizaciones y reportes de datos, para la difusión de
+                    investigaciones en torno a problemáticas nacionales</p>
+                  <br>
+                </div>
               </div>
             </div>
           </div>
+          <button aria-label="close" class="modal-close is-large"
+                  onclick="document.getElementById('modal-magaly').style.display='none'"></button>
         </div>
-        <button aria-label="close" class="modal-close is-large"
-                onclick="document.getElementById('modal-magaly').style.display='none'"></button>
-      </div>
 
 
         <div class="column is-3">
@@ -425,9 +430,9 @@
             </div>
             <div class="card-content">
               <p class="title is-4 has-text-centered">
-<!--                <a onclick="document.getElementById('modal-Karen').style.display='block'">-->
-                  Karen Nuñez
-<!--                </a>-->
+                <!--                <a onclick="document.getElementById('modal-Karen').style.display='block'">-->
+                Karen Nuñez
+                <!--                </a>-->
               </p>
               <div class="content">
                 <br>
@@ -446,7 +451,7 @@
             <div class="card-content">
               <p class="title is-4 has-text-centered">
                 <a onclick="document.getElementById('modal-ivete').style.display='block'">
-                Ivette Sánchez
+                  Ivette Sánchez
                 </a>
               </p>
             </div>
@@ -473,10 +478,13 @@
                     Investigación en Matemáticas</p>
                   <p>Trabajó en la industria privada como líder de plataformas de optimización en Prolec-GE. Cuenta con
                     más de 15 años de experiencia en desarrollo de proyectos de software y de cómputo matemático y
-                    transferencia de tecnología. Sus principales intereses y desarrollos son en las áreas de procesamiento
-                    de imágenes, machine learning, optimización, cómputo paralelo, reconocimiento de patrones y modelación
+                    transferencia de tecnología. Sus principales intereses y desarrollos son en las áreas de
+                    procesamiento
+                    de imágenes, machine learning, optimización, cómputo paralelo, reconocimiento de patrones y
+                    modelación
                     numérica. Tiene certificaciones en ITIL, COBIT y como parte de un equipo Scrum Development(CSD),
-                    además de formación en Administración de proyectos. Fue líder institucional por parte del CIMAT en los
+                    además de formación en Administración de proyectos. Fue líder institucional por parte del CIMAT en
+                    los
                     Nodos Binacionales de Innovación, tanto del Bajío como del Sureste.</p>
                   <p>Actualmente es Coordinadora de Servicios Tecnológicos del Centro de Investigación en Matemáticas y
                     Gerente del Consorcio de Inteligencia Artificial de Centros CONACyT. Alianza conformada por ocho
@@ -491,7 +499,7 @@
         </div>
 
         <div class="column is-3">
-          <div id="cindy-orozco" class="card">
+          <div id="teresita-guerrero" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
                 <img class="imagen-ponente" src="@/assets/img/user.jpg">
@@ -499,9 +507,9 @@
             </div>
             <div class="card-content">
               <p class="title is-4 has-text-centered">
-<!--                <a onclick="document.getElementById('modal-cindy').style.display='block'">-->
-                Cindy Orozco
-<!--                </a>-->
+<!--                <a onclick="document.getElementById('modal-teresita').style.display='block'">-->
+                  Teresita Guerrero
+<!--              </a>-->
               </p>
               <div class="content">
                 <br>
@@ -515,64 +523,77 @@
           <div id="cristina-ortunio" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/cristina_ortunio.jpeg">
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">Cristina Ortuño</p>
-              <div class="content">
-                <p>Estudió en la Universidad Nacional Autónoma de México la carrera de actuaría y la maestría en
-                  estadística. Fue docente por 5 años en temas de simulación y estadística, trabajó en instituciones
-                  gubernamentales, en temas de calidad del aire por 16 años, en temas de derechos humanos por 2 años y
-                  en la función pública por 2 años; durante este tiempo sus principales actividades fueron la
-                  verificación y validación de datos, la generación de indicadores, modelación y análisis de encuestas.
-                  Posteriormente, por 7 años se desempeñó como consultora independiente desarrollando proyectos a nivel
-                  nacional y colaboró con varias consultorías para desarrollar proyectos nacionales e internacionales en
-                  temas de gestión ambiental (calidad del aire, inventarios de emisiones) y otorgó cursos de
-                  capacitación de manejo de datos y generación de indicadores. En el último año estudió temas de
-                  inteligencia artificial y programación de lenguaje natural; obtuvo con su equipo el tercer lugar por
-                  desarrollar un modelo de pronóstico de concentración de partículas finas en la primera edición de AI
-                  Saturdays Latam; participó en un hackathon de cambio climático organizado por el gobierno de Canadá y
-                  AI Launch Lab, donde ella y su equipo fueron ganadores en la categoría de pronóstico de demanda de
-                  energía eólica. Actualmente trabaja como científica de datos en el Instituto Mexicano para la
-                  Competitividad, una asociación civil que desarrolla proyectos de investigación encaminados a evaluar
-                  la competitividad del país.</p>
-                <br>
-              </div>
+              <p class="title is-4 has-text-centered">
+                <a onclick="document.getElementById('modal-cristina').style.display='block'">
+                  Cristina Ortuño
+                </a>
+              </p>
             </div>
           </div>
         </div>
 
-
+        <div id="modal-cristina" class="modal">
+          <div class="modal-background"></div>
+          <div class="modal-content is-tiny">
+            <div class="card interno">
+              <div class="card-image interno">
+                <figure class="image">
+                  <img class="imagen-ponente-interna" src="@/assets/img/cristina_ortunio.jpeg">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="content">
+                    <p class="title is-4">Cristina Ortuño</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>Estudió en la Universidad Nacional Autónoma de México la carrera de actuaría y la maestría en
+                    estadística. Fue docente por 5 años en temas de simulación y estadística, trabajó en instituciones
+                    gubernamentales, en temas de calidad del aire por 16 años, en temas de derechos humanos por 2 años y
+                    en la función pública por 2 años; durante este tiempo sus principales actividades fueron la
+                    verificación y validación de datos, la generación de indicadores, modelación y análisis de encuestas.
+                    Posteriormente, por 7 años se desempeñó como consultora independiente desarrollando proyectos a nivel
+                    nacional y colaboró con varias consultorías para desarrollar proyectos nacionales e internacionales en
+                    temas de gestión ambiental (calidad del aire, inventarios de emisiones) y otorgó cursos de
+                    capacitación de manejo de datos y generación de indicadores. En el último año estudió temas de
+                    inteligencia artificial y programación de lenguaje natural; obtuvo con su equipo el tercer lugar por
+                    desarrollar un modelo de pronóstico de concentración de partículas finas en la primera edición de AI
+                    Saturdays Latam; participó en un hackathon de cambio climático organizado por el gobierno de Canadá y
+                    AI Launch Lab, donde ella y su equipo fueron ganadores en la categoría de pronóstico de demanda de
+                    energía eólica. Actualmente trabaja como científica de datos en el Instituto Mexicano para la
+                    Competitividad, una asociación civil que desarrolla proyectos de investigación encaminados a evaluar
+                    la competitividad del país.</p>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button aria-label="close" class="modal-close is-large"
+                  onclick="document.getElementById('modal-cristina').style.display='none'"></button>
+        </div>
       </div>
 
       <!--      Tercer Set-->
       <div class="columns">
-        <div class="column is-3">
-          <div id="teresita-guerrero" class="card">
-            <div class="card-image">
-              <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
-              </figure>
-            </div>
-            <div class="card-content">
-              <p class="title is-5">Teresita Guerrero</p>
-              <div class="content">
-                <br>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div class="column is-3 is-collapsible">
           <div id="silvia-ariza" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/user.jpg">
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">Silvia Ariza</p>
+              <p class="title is-4 has-text-centered">
+<!--                <a onclick="document.getElementById('modal-silvia').style.display='block'">-->
+                Silvia Ariza
+<!--                </a>-->
+              </p>
               <div class="content">
                 <br>
               </div>
@@ -584,11 +605,15 @@
           <div id="ana-villasenior" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/user.jpg">
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">Ana Beatriz Villaseñor</p>
+              <p class="title is-4 has-text-centered">
+<!--                <a onclick="document.getElementById('modal-ana').style.display='block'">-->
+                  Ana Beatriz Villaseñor
+<!--              </a>-->
+              </p>
               <div class="content">
                 <br>
               </div>
@@ -600,37 +625,42 @@
           <div id="angelina-alarcon" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/user.jpg">
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">Angelina Alarcón</p>
+              <p class="title is-4 has-text-centered">
+<!--                <a onclick="document.getElementById('modal-angelina').style.display='block'">-->
+                  Angelina Alarcón
+<!--              </a>-->
+              </p>
               <div class="content">
                 <br>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <!--      Cuarto set-->
-      <div class="columns">
 
         <div class="column is-3">
           <div id="maria-paz" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/user.jpg">
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">Maria de la Paz Rico</p>
+              <p class="title is-4 has-text-centered">
+<!--                <a onclick="document.getElementById('modal-maria').style.display='block'">-->
+                Maria de la Paz Rico
+<!--              </a>-->
+              </p>
               <div class="content">
                 <br>
               </div>
             </div>
           </div>
         </div>
+
       </div>
 
     </div>
