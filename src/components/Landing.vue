@@ -226,13 +226,9 @@
           </div>
         </div>
 
-        <!--        Modal-->
-
-        <!-- 3dFlipVertical card tiny -->
-        <div id="modal-tzolkin" class="modal modal-fx-3dSlit">
+        <div id="modal-tzolkin" class="modal">
           <div class="modal-background"></div>
           <div class="modal-content is-tiny">
-            <!-- content -->
             <div class="card is-12">
               <div class="card-image">
                 <figure class="image">
@@ -253,43 +249,13 @@
                 </div>
               </div>
             </div>
-            <!-- end content -->
           </div>
-          <button class="modal-close is-large" aria-label="close"
+          <button aria-label="close" class="modal-close is-large"
                   onclick="document.getElementById('modal-tzolkin').style.display='none'"></button>
         </div>
 
-        <!--        <div id="modal-tzolkin" class="modal">-->
-        <!--          <div class="modal-background"></div>-->
-        <!--          <div class="modal-card">-->
-        <!--&lt;!&ndash;            <header class="modal-card-head">&ndash;&gt;-->
-        <!--&lt;!&ndash;              <button onclick="document.getElementById('modal-tzolkin').style.display='none'" class="delete"&ndash;&gt;-->
-        <!--&lt;!&ndash;                      aria-label="close"></button>&ndash;&gt;-->
-        <!--&lt;!&ndash;            </header>&ndash;&gt;-->
-        <!--                      <div class="card">-->
-        <!--                        <div class="card-image">-->
-        <!--                          <figure class="image is-2by2">-->
-        <!--                            <img src="@/assets/img/user.jpg">-->
-        <!--                          </figure>-->
-        <!--                        </div>-->
-        <!--                        <div class="card-content">-->
-        <!--                          <p class="title is-5">Tzolkin Garduño</p>-->
-        <!--                          <div class="content">-->
-        <!--                            Tzolkin Garduño ha incursionado en las mátemáticas aplicadas al cómputo, en el cómputo aplicado a la-->
-        <!--                            medicina, en desarrollo de tecnologías blockchain, aprendizaje de máquina e inteligencia artificial.-->
-        <!--                            Todo lo-->
-        <!--                            anterior con una perspectiva de aportación y crecimiento social.-->
-        <!--                            <br>-->
-        <!--                          </div>-->
-        <!--                        </div>-->
-        <!--                      </div>-->
-        <!--            <button class="modal-close is-large" aria-label="close" onclick="document.getElementById('modal-tzolkin').style.display='none'"></button>-->
 
-        <!--          </div>-->
-        <!--        </div>-->
-
-
-        <div class="column is-3 is-collapsible">
+        <div class="column is-3">
           <div id="malitzin-cortes" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
@@ -297,32 +263,84 @@
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-5">Malitzin Cortés</p>
-              <div class="content">
-                <p>Su trabajo se desarrolla entre live coding, live cinema, instalación, realidad virtual, creative
-                  coding, diseño sonoro , música experimental y arte sonoro.</p>
-                <p>Es profesora e investigadora de la Universidad <i>CENTRO - Diseño, Cine y Televisión</i> en el campo
-                  del código creativo, STEAM y nuevas tecnologías de sonido e inmersivas. En 2020 recibió el premio
-                  Latinoamericano de Realidad Virtual “Realmix” con la pieza inmersiva “Hyper_D”.</p>
-                <p>Actualmente imparte el taller de live coding con programación funcional, Tidal cycles, en la
-                  plataforma de educación con linea del CMMAS.</p>
-                <p>Ha realizado eventos en vivo y exposiciones en el Centro Multimedia, Laboratorio de Arte Alameda,
-                  Arte Actual Ex-Teresa, Centro Cultural Digital, Medialab Prado, Centro Cultural de España, CMMAS,
-                  Vorspiel, Spektrum Berlin, Transpiksel, Aural, Transmediale Berlin, ISEA, CYLAND MediaArtLab San
-                  Petesburgo, ADAF, Ars Electronica, Currents, MUTEK México, Montreal y Japón.</p>
-                <p>La propuesta sonora del CNDSD se concibe en un ambiente experimental y ejercicios musicales
-                  transfronterizos: paisajes granulares, experimentos vocales algorítmicos, improvisaciones de ruido
-                  hipnótico, codificación en vivo y patrones asimétricos.</p>
-                <p>Como artista, investiga las formas en que el arte, la arquitectura, la tecnología y la ciencia tienen
-                  la capacidad de ser grandes divulgadores de hallazgos y dispositivos de autorreflexión y generación de
-                  modelos inéditos de interacciones sociales capaces de brindar nuevas formas de relacionarse desde el
-                  utopía, especulación, espacio físico, realidad, el constante estado de crisis y también de
-                  esperanza.</p>
-                <br>
-              </div>
+              <p class="title is-4 has-text-centered">
+                <a onclick="document.getElementById('modal-malitzin').style.display='block'">
+                  Malitzin Cortés
+                </a>
+              </p>
             </div>
           </div>
         </div>
+
+        <div id="modal-malitzin" class="modal">
+          <div class="modal-background"></div>
+          <div class="modal-content is-tiny">
+            <div class="card is-12">
+              <div class="card-image">
+                <figure class="image">
+                  <img class="imagen-ponente-interna" src="@/assets/img/user.jpg">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Malitzin Cortés</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>Su trabajo se desarrolla entre live coding, live cinema, instalación, realidad virtual, creative
+                    coding, diseño sonoro , música experimental y arte sonoro.</p>
+                  <p>Es profesora e investigadora de la Universidad <i>CENTRO - Diseño, Cine y Televisión</i> en el campo
+                    del código creativo, STEAM y nuevas tecnologías de sonido e inmersivas. En 2020 recibió el premio
+                    Latinoamericano de Realidad Virtual “Realmix” con la pieza inmersiva “Hyper_D”.</p>
+                  <p>Actualmente imparte el taller de live coding con programación funcional, Tidal cycles, en la
+                    plataforma de educación con linea del CMMAS.</p>
+                  <p>Ha realizado eventos en vivo y exposiciones en el Centro Multimedia, Laboratorio de Arte Alameda,
+                    Arte Actual Ex-Teresa, Centro Cultural Digital, Medialab Prado, Centro Cultural de España, CMMAS,
+                    Vorspiel, Spektrum Berlin, Transpiksel, Aural, Transmediale Berlin, ISEA, CYLAND MediaArtLab San
+                    Petesburgo, ADAF, Ars Electronica, Currents, MUTEK México, Montreal y Japón.</p>
+                  <p>La propuesta sonora del CNDSD se concibe en un ambiente experimental y ejercicios musicales
+                    transfronterizos: paisajes granulares, experimentos vocales algorítmicos, improvisaciones de ruido
+                    hipnótico, codificación en vivo y patrones asimétricos.</p>
+                  <p>Como artista, investiga las formas en que el arte, la arquitectura, la tecnología y la ciencia tienen
+                    la capacidad de ser grandes divulgadores de hallazgos y dispositivos de autorreflexión y generación de
+                    modelos inéditos de interacciones sociales capaces de brindar nuevas formas de relacionarse desde el
+                    utopía, especulación, espacio físico, realidad, el constante estado de crisis y también de
+                    esperanza.</p>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="modal-close is-large" aria-label="close"
+                  onclick="document.getElementById('modal-malitzin').style.display='none'"></button>
+        </div>
+
+<!--              <div class="content">-->
+<!--                <p>Su trabajo se desarrolla entre live coding, live cinema, instalación, realidad virtual, creative-->
+<!--                  coding, diseño sonoro , música experimental y arte sonoro.</p>-->
+<!--                <p>Es profesora e investigadora de la Universidad <i>CENTRO - Diseño, Cine y Televisión</i> en el campo-->
+<!--                  del código creativo, STEAM y nuevas tecnologías de sonido e inmersivas. En 2020 recibió el premio-->
+<!--                  Latinoamericano de Realidad Virtual “Realmix” con la pieza inmersiva “Hyper_D”.</p>-->
+<!--                <p>Actualmente imparte el taller de live coding con programación funcional, Tidal cycles, en la-->
+<!--                  plataforma de educación con linea del CMMAS.</p>-->
+<!--                <p>Ha realizado eventos en vivo y exposiciones en el Centro Multimedia, Laboratorio de Arte Alameda,-->
+<!--                  Arte Actual Ex-Teresa, Centro Cultural Digital, Medialab Prado, Centro Cultural de España, CMMAS,-->
+<!--                  Vorspiel, Spektrum Berlin, Transpiksel, Aural, Transmediale Berlin, ISEA, CYLAND MediaArtLab San-->
+<!--                  Petesburgo, ADAF, Ars Electronica, Currents, MUTEK México, Montreal y Japón.</p>-->
+<!--                <p>La propuesta sonora del CNDSD se concibe en un ambiente experimental y ejercicios musicales-->
+<!--                  transfronterizos: paisajes granulares, experimentos vocales algorítmicos, improvisaciones de ruido-->
+<!--                  hipnótico, codificación en vivo y patrones asimétricos.</p>-->
+<!--                <p>Como artista, investiga las formas en que el arte, la arquitectura, la tecnología y la ciencia tienen-->
+<!--                  la capacidad de ser grandes divulgadores de hallazgos y dispositivos de autorreflexión y generación de-->
+<!--                  modelos inéditos de interacciones sociales capaces de brindar nuevas formas de relacionarse desde el-->
+<!--                  utopía, especulación, espacio físico, realidad, el constante estado de crisis y también de-->
+<!--                  esperanza.</p>-->
+<!--                <br>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
 
         <div class="column is-3">
           <div id="magaly-ruiz" class="card">
