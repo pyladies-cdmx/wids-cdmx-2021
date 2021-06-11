@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <link href="<%= BASE_URL %>favicon.ico" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" rel="stylesheet">
     <title>WiDS CDMX</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+    <meta content="WiDS, Ciudad de México, 2021" property="og:title"/>
+    <meta content="website" property="og:type"/>
+    <meta content="https://pyladies-cdmx.github.io/wids-cdmx-2021/" property="og:url"/>
+    <meta content="/src/assets/logos/wids_cdmx_logo.jpeg" property="og:image"/>
+    <meta property="og:description"
+          content="¡WiDS CDMX ya está aquí! 26 de junio, 2021. Conoce la agenda y regístrate." />
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
 </html>
