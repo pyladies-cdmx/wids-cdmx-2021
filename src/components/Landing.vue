@@ -2,7 +2,7 @@
   <body>
   <section class="hero is-info is-medium is-bold">
     <div class="hero-head">
-      <nav class="navbar">
+      <nav class="navbar is-fixed-top">
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item"></a>
@@ -16,6 +16,7 @@
             <div class="navbar-end">
               <div class="tabs is-right">
                 <ul>
+                  <li><a href="#inicio">Inicio</a></li>
                   <li><a href="#about-wids">Acerca de WiDS</a></li>
                   <li><a href="#agenda">Agenda</a></li>
                   <li><a href="#ponentes">Ponentes</a></li>
@@ -27,7 +28,7 @@
         </div>
       </nav>
     </div>
-    <div class="hero-body">
+    <div id="inicio" class="hero-body">
       <div class="container has-text-centered">
         <img alt="Logo" class="logo-wids-cdmx" src="@/assets/logos/wids_cdmx_logo.png">
         <h1 class="title">
