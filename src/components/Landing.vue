@@ -836,7 +836,7 @@ h1 {
 }
 
 .card-content .content {
-  font-size: 14px;
+  font-size: 18px;
   margin: 1rem 1rem;
 }
 
