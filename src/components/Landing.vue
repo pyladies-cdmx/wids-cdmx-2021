@@ -112,12 +112,12 @@
               <p>Mirar a través de lentes a conjunto de puntos</p>
             </a>
           </td>
-          <td><a href="#cindy-orozco">Cindy Orozco</a></td>
+          <td>Cindy Orozco</td>
         </tr>
 
         <tr>
           <td>11:30 a 12:00</td>
-          <td>Coffe break</td>
+          <td>Coffee break</td>
           <td></td>
         </tr>
 
@@ -129,7 +129,7 @@
 
         <tr>
           <td>12:30 a 13:00</td>
-          <td>TBA</td>
+          <td><i>Por confirmar</i></td>
           <td><a href="#malitzin-cortes">Malitzin Cortés</a></td>
         </tr>
 
@@ -171,7 +171,7 @@
 
         <tr>
           <td>16:30 a 17:00</td>
-          <td>Coffe break</td>
+          <td>Coffee break</td>
           <td></td>
         </tr>
 
@@ -179,12 +179,12 @@
           <td>17:00 a 18:00</td>
           <td>Panel: Ciencia de datos más allá del código</td>
           <td>
-            <p><a href="#ivete-sanchez">Ivete Sánchez</a></p>
-            <p><a href="#angelina-alarcon">Angelina Alarcon</a></p>
-            <p><a href="#maria-paz">María de la Paz Rico</a></p>
-            <p><a href="#libertad-pantoja">Libertad Pantoja</a></p>
-            <p><a href="#ana-villasenior">Ana Beatriz Villaseñor</a></p>
-            <p><a href="#karen-nunez">Karen Nuñez</a></p>
+            <p><a href="#ivete-sanchez">Ivete Sánchez, </a></p>
+            <p><a href="#angelina-alarcon">Angelina Alarcon, </a></p>
+            <p><a href="#maria-paz">María de la Paz Rico, </a></p>
+            <p><a href="#libertad-pantoja">Libertad Pantoja, </a></p>
+            <p><a href="#ana-villasenior">Ana Beatriz Villaseñor, </a></p>
+            <p><a href="#karen-nunez">Karen Nuñez, </a></p>
           </td>
         </tr>
 
@@ -295,7 +295,7 @@
                     del código creativo, STEAM y nuevas tecnologías de sonido e inmersivas. En 2020 recibió el premio
                     Latinoamericano de Realidad Virtual “Realmix” con la pieza inmersiva “Hyper_D”.</p>
                   <p>Actualmente imparte el taller de live coding con programación funcional, Tidal cycles, en la
-                    plataforma de educación con linea del CMMAS.</p>
+                    plataforma de educación en línea del CMMAS.</p>
                   <p>Ha realizado eventos en vivo y exposiciones en el Centro Multimedia, Laboratorio de Arte Alameda,
                     Arte Actual Ex-Teresa, Centro Cultural Digital, Medialab Prado, Centro Cultural de España, CMMAS,
                     Vorspiel, Spektrum Berlin, Transpiksel, Aural, Transmediale Berlin, ISEA, CYLAND MediaArtLab San
@@ -487,7 +487,7 @@
                     los
                     Nodos Binacionales de Innovación, tanto del Bajío como del Sureste.</p>
                   <p>Actualmente es Coordinadora de Servicios Tecnológicos del Centro de Investigación en Matemáticas y
-                    Gerente del Consorcio de Inteligencia Artificial de Centros CONACyT. Alianza conformada por ocho
+                    Gerente del Consorcio de Inteligencia Artificial de Centros CONACyT, alianza conformada por ocho
                     centros públicos de investigación.</p>
                   <br>
                 </div>
@@ -677,7 +677,7 @@
           <br/>
           <p>Por favor regístrate a través del siguiente enlace. Antes del evento se enviarán las instrucciones para que
             puedas acceder al mismo.</p>
-          <p>El evento se llevará acabo en la plataforma Euleer el día 26 de Junio y con cupo limitado.</p>
+          <p>El evento se llevará acabo en la plataforma Eulerr el día 26 de Junio y con cupo limitado.</p>
           <br/>
           <button class="button is-dark is-large">
             <a class="boton-registro"
