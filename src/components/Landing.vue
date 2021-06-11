@@ -215,7 +215,9 @@
           <div id="tzolquin-gardunio" class="card">
             <div class="card-image is-4by4">
               <figure class="image is-4by4">
-                <img class="imagen-ponente" src="@/assets/img/tzolkin_gardunio.jpeg">
+                <a onclick="document.getElementById('modal-tzolkin').style.display='block'">
+                  <img class="imagen-ponente" src="@/assets/img/tzolkin_gardunio.jpeg">
+                </a>
               </figure>
             </div>
             <div class="card-content">
@@ -261,7 +263,9 @@
           <div id="malitzin-cortes" class="card">
             <div class="card-image is4by4">
               <figure class="image is-4by4">
-                <img class="imagen-ponente" src="@/assets/img/malitzin_cortes.jpg">
+                <a onclick="document.getElementById('modal-malitzin').style.display='block'">
+                  <img class="imagen-ponente" src="@/assets/img/malitzin_cortes.jpg">
+                </a>
               </figure>
             </div>
             <div class="card-content">
@@ -325,7 +329,9 @@
           <div id="magaly-ruiz" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img class="imagen-ponente" src="@/assets/img/magaly_ruiz.jpg">
+                <a onclick="document.getElementById('modal-magaly').style.display='block'">
+                  <img class="imagen-ponente" src="@/assets/img/magaly_ruiz.jpg">
+                </a>
               </figure>
             </div>
             <div class="card-content">
@@ -376,7 +382,9 @@
           <div id="libertad-pantoja" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img class="imagen-ponente" src="@/assets/img/libertad_pantoja.jpg">
+                <a onclick="document.getElementById('modal-libertad').style.display='block'">
+                  <img class="imagen-ponente" src="@/assets/img/libertad_pantoja.jpg">
+                </a>
               </figure>
             </div>
             <div class="card-content">
@@ -447,7 +455,9 @@
           <div id="ivete-sanchez" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img class="imagen-ponente" src="@/assets/img/ivete_sanchez.jpeg">
+                <a onclick="document.getElementById('modal-ivete').style.display='block'">
+                  <img class="imagen-ponente" src="@/assets/img/ivete_sanchez.jpeg">
+                </a>
               </figure>
             </div>
             <div class="card-content">
@@ -509,9 +519,9 @@
             </div>
             <div class="card-content">
               <p class="title is-4 has-text-centered">
-<!--                <a onclick="document.getElementById('modal-teresita').style.display='block'">-->
-                  Teresita Guerrero
-<!--              </a>-->
+                <!--                <a onclick="document.getElementById('modal-teresita').style.display='block'">-->
+                Teresita Guerrero
+                <!--              </a>-->
               </p>
               <div class="content">
                 <br>
@@ -525,7 +535,9 @@
           <div id="cristina-ortunio" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img class="imagen-ponente" src="@/assets/img/cristina_ortunio.jpeg">
+                <a onclick="document.getElementById('modal-cristina').style.display='block'">
+                  <img class="imagen-ponente" src="@/assets/img/cristina_ortunio.jpeg">
+                </a>
               </figure>
             </div>
             <div class="card-content">
@@ -558,14 +570,18 @@
                     estadística. Fue docente por 5 años en temas de simulación y estadística, trabajó en instituciones
                     gubernamentales, en temas de calidad del aire por 16 años, en temas de derechos humanos por 2 años y
                     en la función pública por 2 años; durante este tiempo sus principales actividades fueron la
-                    verificación y validación de datos, la generación de indicadores, modelación y análisis de encuestas.
-                    Posteriormente, por 7 años se desempeñó como consultora independiente desarrollando proyectos a nivel
-                    nacional y colaboró con varias consultorías para desarrollar proyectos nacionales e internacionales en
+                    verificación y validación de datos, la generación de indicadores, modelación y análisis de
+                    encuestas.
+                    Posteriormente, por 7 años se desempeñó como consultora independiente desarrollando proyectos a
+                    nivel
+                    nacional y colaboró con varias consultorías para desarrollar proyectos nacionales e internacionales
+                    en
                     temas de gestión ambiental (calidad del aire, inventarios de emisiones) y otorgó cursos de
                     capacitación de manejo de datos y generación de indicadores. En el último año estudió temas de
                     inteligencia artificial y programación de lenguaje natural; obtuvo con su equipo el tercer lugar por
                     desarrollar un modelo de pronóstico de concentración de partículas finas en la primera edición de AI
-                    Saturdays Latam; participó en un hackathon de cambio climático organizado por el gobierno de Canadá y
+                    Saturdays Latam; participó en un hackathon de cambio climático organizado por el gobierno de Canadá
+                    y
                     AI Launch Lab, donde ella y su equipo fueron ganadores en la categoría de pronóstico de demanda de
                     energía eólica. Actualmente trabaja como científica de datos en el Instituto Mexicano para la
                     Competitividad, una asociación civil que desarrolla proyectos de investigación encaminados a evaluar
@@ -592,9 +608,9 @@
             </div>
             <div class="card-content">
               <p class="title is-4 has-text-centered">
-<!--                <a onclick="document.getElementById('modal-silvia').style.display='block'">-->
+                <!--                <a onclick="document.getElementById('modal-silvia').style.display='block'">-->
                 Silvia Ariza
-<!--                </a>-->
+                <!--                </a>-->
               </p>
               <div class="content">
                 <br>
@@ -612,9 +628,9 @@
             </div>
             <div class="card-content">
               <p class="title is-4 has-text-centered">
-<!--                <a onclick="document.getElementById('modal-ana').style.display='block'">-->
-                  Ana Beatriz Villaseñor
-<!--              </a>-->
+                <!--                <a onclick="document.getElementById('modal-ana').style.display='block'">-->
+                Ana Beatriz Villaseñor
+                <!--              </a>-->
               </p>
               <div class="content">
                 <br>
@@ -632,9 +648,9 @@
             </div>
             <div class="card-content">
               <p class="title is-4 has-text-centered">
-<!--                <a onclick="document.getElementById('modal-angelina').style.display='block'">-->
-                  Angelina Alarcón
-<!--              </a>-->
+                <!--                <a onclick="document.getElementById('modal-angelina').style.display='block'">-->
+                Angelina Alarcón
+                <!--              </a>-->
               </p>
               <div class="content">
                 <br>
@@ -652,9 +668,9 @@
             </div>
             <div class="card-content">
               <p class="title is-4 has-text-centered">
-<!--                <a onclick="document.getElementById('modal-maria').style.display='block'">-->
+                <!--                <a onclick="document.getElementById('modal-maria').style.display='block'">-->
                 Maria de la Paz Rico
-<!--              </a>-->
+                <!--              </a>-->
               </p>
               <div class="content">
                 <br>
@@ -738,17 +754,16 @@
 export default {
   name: 'Landing',
   mounted() {
-    (function() {
+    (function () {
       var burger = document.querySelector('.burger');
-      var menu = document.querySelector('#'+burger.dataset.target);
-      burger.addEventListener('click', function() {
+      var menu = document.querySelector('#' + burger.dataset.target);
+      burger.addEventListener('click', function () {
         burger.classList.toggle('is-active');
         menu.classList.toggle('is-active');
       });
     })();
   }
 }
-
 
 
 </script>
@@ -781,7 +796,7 @@ h1 {
 }
 
 .hero .navbar-menu {
-  background-image: linear-gradient(141deg,#00b140 0,#00b140 50%,#00b140 100%) !important;
+  background-image: linear-gradient(141deg, #00b140 0, #00b140 50%, #00b140 100%) !important;
   background-color: #00b140;
 }
 
@@ -951,6 +966,7 @@ a {
   padding-bottom: 56.2%;
   margin-bottom: 20px;
 }
+
 .contenido-responsivo iframe {
   position: absolute;
   top: 0;
