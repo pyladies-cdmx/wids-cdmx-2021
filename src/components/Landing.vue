@@ -66,11 +66,13 @@
           <div class="is-divider"></div>
         </div>
         <div class="column is-6 right-image " data-aos="fade-left">
-          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen frameborder="0" height="315"
-                  src="https://www.youtube.com/embed/yObQ-odcIKc"
-                  title="YouTube video player"
-                  width="560"></iframe>
+          <div class="contenido-responsivo">
+            <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen frameborder="0" height="315"
+                    src="https://www.youtube.com/embed/yObQ-odcIKc"
+                    title="YouTube video player"
+                    width="560"></iframe>
+          </div>
         </div>
       </div>
     </div>
@@ -941,4 +943,20 @@ a {
   background-color: transparent;
   text-decoration: none;
 }
+
+.contenido-responsivo {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.2%;
+  margin-bottom: 20px;
+}
+.contenido-responsivo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 </style>
