@@ -15,13 +15,8 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: "Quatrocento Sans";
-  font-style: normal;
-  font-weight: 200;
-  font-display: swap;
-  src: url("/src/assets/fonts/QuattrocentoSans-Regular.ttf");
-}
+@import "./scss/general.scss";
+
 #app {
   font-family: "Quatrocento Sans", sans-serif;
   -webkit-font-smoothing: antialiased;

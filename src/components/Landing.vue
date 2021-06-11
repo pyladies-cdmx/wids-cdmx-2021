@@ -755,11 +755,17 @@ export default {
 <style scoped>
 html, body {
   background: #EFF3F4;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Quatrocento Sans";
+  font-size: 18px;
+  /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 .hero-body {
@@ -865,13 +871,6 @@ img.imagen-ponente-interna {
   height: 259px;
   object-fit: cover;
   border-radius: 50%;
-  /*width: 259px;*/
-  /*height: 259px;*/
-  /*object-fit: cover;*/
-  /*border-radius: 50%;*/
-  /*!*width: 60%;*!*/
-  /*padding-top: 2rem;*/
-  /*padding-bottom: 2rem;*/
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: auto;
