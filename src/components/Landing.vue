@@ -209,34 +209,19 @@
 
       <!--      Primer set-->
       <div class="columns">
-        <!--        <div class="column is-3">-->
-        <!--          <div id="tzolquin-gardunio" class="card">-->
-        <!--            <div class="card-image">-->
-        <!--              <figure class="image is-4by4">-->
-        <!--                <img src="@/assets/img/user.jpg">-->
-        <!--              </figure>-->
-        <!--            </div>-->
-        <!--            <div class="card-content">-->
-        <!--              <p class="title is-5">Tzolkin Garduño</p>-->
-        <!--              <div class="content">-->
-        <!--                Tzolkin Garduño ha incursionado en las mátemáticas aplicadas al cómputo, en el cómputo aplicado a la-->
-        <!--                medicina, en desarrollo de tecnologías blockchain, aprendizaje de máquina e inteligencia artificial.-->
-        <!--                Todo lo-->
-        <!--                anterior con una perspectiva de aportación y crecimiento social.-->
-        <!--                <br>-->
-        <!--              </div>-->
-        <!--            </div>-->
-        <!--          </div>-->
         <div class="column is-3">
           <div id="tzolquin-gardunio" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/user.jpg">
               </figure>
             </div>
             <div class="card-content">
-              <p class="title is-4"><a onclick="document.getElementById('modal-tzolkin').style.display='block'"
-                                       class="nombre-ponente">Tzolkin Garduño</a></p>
+              <p class="title is-4 has-text-centered">
+                <a onclick="document.getElementById('modal-tzolkin').style.display='block'">
+                  Tzolkin Garduño
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -248,10 +233,10 @@
           <div class="modal-background"></div>
           <div class="modal-content is-tiny">
             <!-- content -->
-            <div class="card">
+            <div class="card is-12">
               <div class="card-image">
-                <figure class="image is-3by3">
-                  <img src=src="@/assets/img/user.jpg">
+                <figure class="image">
+                  <img class="imagen-ponente-interna" src="@/assets/img/user.jpg">
                 </figure>
               </div>
               <div class="card-content">
@@ -696,12 +681,14 @@ html, body {
   text-align: center;
 }
 
-.card-image > .fa {
+.card-image {
+  background-color: #EFF3F4;
   font-size: 8rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  color: #209cee;
-  width: 200px;
+  /*padding-top: 2rem;*/
+  /*padding-bottom: 2rem;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .card-content .content {
@@ -715,8 +702,23 @@ html, body {
 }
 
 .card {
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
-  margin-bottom: 2rem;
+  background-color: #EFF3F4;
+  box-shadow: none;
+  /*box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);*/
+  /*margin-bottom: 2rem;*/
+}
+
+img.imagen-ponente {
+  border-radius: 50%;
+}
+
+img.imagen-ponente-interna {
+  border-radius: 50%;
+  width: 60%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
@@ -776,5 +778,11 @@ a.boton-registro:hover {
   color: lightgrey;
   background-color: transparent;
   text-decoration: underline;
+}
+
+a {
+  color: #363636;
+  background-color: transparent;
+  text-decoration: none;
 }
 </style>
