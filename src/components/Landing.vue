@@ -37,7 +37,7 @@
           Ciudad de México
         </h1>
         <h2 class="subtitle">
-          27 de junio, 2021 - Evento virtual
+          26 de junio, 2021 - Evento virtual
         </h2>
       </div>
     </div>

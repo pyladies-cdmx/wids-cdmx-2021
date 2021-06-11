@@ -13,9 +13,9 @@ cd dist
 # echo 'www.example.com' > CNAME
 
 git init
-git branch -M main
 git add -A
 git commit -m 'despliegue'
+git branch -M main
 
 git push -f git@github.com:paupradel/wids-cdmx-2021.git main:gh-pages
 
