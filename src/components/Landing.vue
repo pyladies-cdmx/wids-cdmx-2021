@@ -787,7 +787,6 @@ h1 {
 }
 
 .hero-body {
-  /*background-image: url("/src/assets/cdmx-150027_1280.png");*/
   background-color: #00b140;
   height: 100vh;
 }
