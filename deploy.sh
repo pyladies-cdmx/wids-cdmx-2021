@@ -17,6 +17,6 @@ git add -A
 git commit -m 'despliegue'
 git branch -M main
 
-git push -f git@github.com:paupradel/wids-cdmx-2021.git main:gh-pages
+git push -f git@github.com:pyladies-cdmx/wids-cdmx-2021.git main:gh-pages
 
 cd -
