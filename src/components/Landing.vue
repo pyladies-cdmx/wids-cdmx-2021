@@ -156,7 +156,7 @@
 
         <tr>
           <td>15:00 a 15:30</td>
-          <td>Accesibilidad para la visualización de datos, A11 y DataViz</td>
+          <td>Accesibilidad para la visualización de datos, <i>A11y</i>  DataViz</td>
           <td><a href="#magaly-ruiz">Magaly Ruiz</a></td>
         </tr>
 
