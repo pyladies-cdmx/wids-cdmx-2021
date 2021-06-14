@@ -687,7 +687,9 @@
             <div class="card interno">
               <div class="card-image interno">
                 <figure class="image">
-                  <img class="imagen-ponente-interna" src="@/assets/img/ana_villasenior.jpeg">
+                  <a onclick="document.getElementById('modal-ana').style.display='block'">
+                    <img class="imagen-ponente-interna" src="@/assets/img/ana_villasenior.jpeg">
+                  </a>
                 </figure>
               </div>
               <div class="card-content">
@@ -779,7 +781,7 @@
           </a>
         </div>
         <div class="column is-3">
-          <a href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/">
+          <a href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/" target="_blank">
             <img class="imagen-patro-1" src="@/assets/logos/pyladies_logo.png">
           </a>
         </div>
