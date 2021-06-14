@@ -56,7 +56,7 @@
         <div class="column is-6">
           <p><strong>WiDS Ciudad de México</strong> es un evento independiente organizado por <a
               href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/" target="_blank">Pyladies CDMX</a> y
-            <a href="https://www.facebook.com/WiDSCommunity/" targer="_blank">Women in Data Sience, Power and
+            <a href="https://www.facebook.com/WiDSCommunity/" target="_blank">Women in Data Sience, Power and
               Engineering</a>, como parte de la conferencia mundial WiDS organizada por la Universidad de Stanford y con
             un
             estimado de 150+ ubicaciones en el mundo, y que presenta a mujeres sobresalientes, haciendo trabajo
@@ -796,8 +796,8 @@
   </div>
 
   <footer class="footer has-text-centered">
-    Conoce más acerca de la iniciativa munical Women in Data Science (WiDS)
-    <a class="link-footer" href="https://www.widsconference.org/">aquí</a>.
+    Conoce más acerca de la iniciativa mundial Women in Data Science (WiDS)
+    <a class="link-footer" href="https://www.widsconference.org/" target="_blank">aquí</a>.
   </footer>
 
 
