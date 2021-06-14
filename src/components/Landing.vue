@@ -666,7 +666,9 @@
           <div id="ana-villasenior" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img class="imagen-ponente" src="@/assets/img/ana_villasenior.jpeg">
+                <a onclick="document.getElementById('modal-ana').style.display='block'">
+                  <img class="imagen-ponente" src="@/assets/img/ana_villasenior.jpeg">
+                </a>
               </figure>
             </div>
             <div class="card-content">
@@ -687,9 +689,7 @@
             <div class="card interno">
               <div class="card-image interno">
                 <figure class="image">
-                  <a onclick="document.getElementById('modal-ana').style.display='block'">
-                    <img class="imagen-ponente-interna" src="@/assets/img/ana_villasenior.jpeg">
-                  </a>
+                  <img class="imagen-ponente-interna" src="@/assets/img/ana_villasenior.jpeg">
                 </figure>
               </div>
               <div class="card-content">
