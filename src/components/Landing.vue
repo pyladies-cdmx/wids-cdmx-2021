@@ -18,9 +18,10 @@
                 <ul>
                   <li><a href="#inicio">Inicio</a></li>
                   <li><a href="#about-wids">Acerca de WiDS</a></li>
+                  <li><a href="#registro">Registro</a></li>
                   <li><a href="#agenda">Agenda</a></li>
                   <li><a href="#ponentes">Ponentes</a></li>
-                  <li><a href="#registro">Registro</a></li>
+                  <li><a href="#patrocinadores">Patrocinadores</a></li>
                 </ul>
               </div>
             </div>
@@ -51,10 +52,16 @@
         <h1 class="title has-text-centered section-title">Acerca de WiDS</h1>
       </div>
       <br/>
-      <div class="columns is-multiline">
-        <div class="column is-6" data-aos="fade-right">
+      <div class="columns is-multiline is-centered">
+        <div class="column is-6">
+          <p><strong>WiDS Ciudad de México</strong> es un evento independiente organizado por <a href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/" target="_blank">Pyladies CDMX</a> y
+            <a href="https://www.facebook.com/WiDSCommunity/" targer="_blank">Women in Data Sience, Power and Engineering</a>, como parte de la conferencia mundial WiDS organizada por la Universidad de Stanford y con un
+            estimado de 150+ ubicaciones en el mundo, y que presenta a mujeres sobresalientes, haciendo trabajo sobresaliente
+            en el campo de la ciencia de datos. Todos los géneros son bienvenidos a asistir a todos los eventos de WiDS en
+            el mundo.</p>
+          <br>
           <p>
-            La conferencia mundial WiDS (Women in Data Science) tiene como objetivo inspirar y educar a lxs científicxs
+            La conferencia mundial <a href="https://www.widsconference.org/" target="_blank">WiDS (Women in Data Science)</a> tiene como objetivo inspirar y educar a lxs científicxs
             de datos de todo el mundo sin importar su género, así como dar apoyo a las mujeres presentes en la
             industria.</p>
           <br/>
@@ -62,14 +69,10 @@
             relacionadas con la ciencia de datos en distintos dominios y así conectar con otrxs en el campo.
           </p>
           <br/>
-          <p><strong>WiDS Ciudad de México</strong> es un evento independiente organizado por <a href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/" target="_blank">Pyladies CDMX</a> y
-            <a href="https://www.facebook.com/WiDSCommunity/" targer="_blank">Women in Data Sience, Power and Engineering</a>, como parte de la conferencia mundial WiDS organizada por la Universidad de Stanford y con un
-          estimado de 150+ ubicaciones en el mundo, y que presenta mujeres sobresalientes, haciendo trabajo sobresaliente
-          en el campo de la ciencia de datos. Todos los géneros son bienvenidos a asistir a todos los eventos de WiDS en
-          el mundo.</p>
           <div class="is-divider"></div>
         </div>
-        <div class="column is-6 right-image" data-aos="fade-left">
+      <div class="column is-5">
+        <br>
           <div class="contenido-responsivo">
             <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen frameborder="0" height="320"
@@ -81,6 +84,35 @@
       </div>
     </div>
   </div>
+
+
+  <!-- Registro -->
+  <div id="registro" class="section">
+    <div class="container">
+      <div class="column is-12 about-me">
+        <h1 class="title has-text-centered section-title">Registro</h1>
+      </div>
+      <div class="columns is-multiline">
+        <div id="registro-container" class="column is-12 has-vertically-aligned-content" data-aos="fade-right">
+          <br/>
+          <p>Por favor regístrate a través del siguiente enlace. Antes del evento se enviarán las instrucciones para que
+            puedas acceder al mismo.</p>
+          <p>El evento se llevará acabo en la plataforma Eulerr el día 26 de Junio y con cupo limitado.</p>
+          <br/>
+          <button class="button is-dark is-large">
+            <a class="boton-registro"
+               href="https://docs.google.com/forms/d/e/1FAIpQLScceJ72WnpsP1YTKbNW69JYMdAlGEjy8IxQsj6cTsSgeuIzcg/viewform?usp=sf_link"
+               target="_blank">
+              Regístrate
+            </a>
+          </button>
+          <br/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
   <!-- Agenda -->
   <div id="agenda" class="section">
@@ -605,7 +637,7 @@
       <!--      Tercer Set-->
       <div class="columns">
 
-        <div class="column is-3 is-collapsible">
+        <div class="column is-3">
           <div id="silvia-ariza" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
@@ -690,31 +722,36 @@
     </div>
   </div>
 
-  <!-- Registro -->
-  <div id="registro" class="section">
+<!--  Patrocinadorxs-->
+
+  <div id="patrocinadores" class="section">
     <div class="container">
       <div class="column is-12 about-me">
-        <h1 class="title has-text-centered section-title">Registro</h1>
+        <h1 class="title has-text-centered section-title">Patrocinadores</h1>
       </div>
-      <div class="columns is-multiline">
-        <div id="registro-container" class="column is-12 has-vertically-aligned-content" data-aos="fade-right">
-          <br/>
-          <p>Por favor regístrate a través del siguiente enlace. Antes del evento se enviarán las instrucciones para que
-            puedas acceder al mismo.</p>
-          <p>El evento se llevará acabo en la plataforma Eulerr el día 26 de Junio y con cupo limitado.</p>
-          <br/>
-          <button class="button is-dark is-large">
-            <a class="boton-registro"
-               href="https://docs.google.com/forms/d/e/1FAIpQLScceJ72WnpsP1YTKbNW69JYMdAlGEjy8IxQsj6cTsSgeuIzcg/viewform?usp=sf_link"
-               target="_blank">
-              Regístrate
-            </a>
-          </button>
-          <br/>
+      <br/>
+
+      <div class="columns has-text-centered is-centered">
+        <div class="column is-3">
+          <a href="https://eulerr.app/" target="_blank">
+            <img class="imagen-patro-2" src="@/assets/logos/eulerr.jpg">
+          </a>
         </div>
+        <div class="column is-3">
+          <a href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/">
+            <img class="imagen-patro-1" src="@/assets/logos/pyladies_logo.png">
+          </a>
+        </div>
+        <div class="column is-3">
+          <a href="https://www.facebook.com/WiDSCommunity/" target="_blank">
+            <img class="imagen-patro-1" src="@/assets/logos/women_in_dspe.png">
+          </a>
+        </div>
+
       </div>
     </div>
   </div>
+
 
   <!--  Footer-->
   <footer class="footer">
@@ -897,6 +934,17 @@ img.imagen-ponente-interna {
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+img.imagen-patro-1 {
+  height: 30vh;
+  width: auto;
+}
+
+img.imagen-patro-2 {
+  height: 12vh;
+  width: auto;
+  margin-top: 8vh;
 }
 
 footer {
