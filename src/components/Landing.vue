@@ -793,43 +793,6 @@
     </div>
   </div>
 
-
-  <!--  Footer-->
-  <!--  <footer class="footer">-->
-  <!--    <div class="container">-->
-  <!--      <div id="columns-footer" class="columns has-text-centered">-->
-  <!--        <div class="column is-2">-->
-  <!--          <img class="logo-pyladies-cdmx" src="@/assets/logos/pyladies_logo.png">-->
-  <!--        </div>-->
-  <!--        <div class="column is-1">-->
-  <!--          <p>-->
-  <!--            <a class="link-footer" href="https://www.facebook.com/pyladiescdmx" target="_blank">Facebook</a>-->
-  <!--          </p>-->
-  <!--        </div>-->
-  <!--        <div class="column is-1">-->
-  <!--          <p>-->
-  <!--            <a class="link-footer" href="https://www.instagram.com/pyladiescdmx/" target="_blank">Instagram</a>-->
-  <!--          </p>-->
-  <!--        </div>-->
-  <!--        <div class="column is-1">-->
-  <!--          <p>-->
-  <!--            <a class="link-footer" href="https://twitter.com/mxpyladies" target="_blank">Twitter</a>-->
-  <!--          </p>-->
-  <!--        </div>-->
-  <!--        <div class="column is-1">-->
-  <!--          <p>-->
-  <!--            <a class="link-footer" href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/" target="_blank">Meetup</a>-->
-  <!--          </p>-->
-  <!--        </div>-->
-  <!--        <div class="column is-1">-->
-  <!--          <p>-->
-  <!--            <a class="link-footer" href="mailto: mx@pyladies.com" target="_blank">mx@pyladies.com</a>-->
-  <!--          </p>-->
-  <!--        </div>-->
-  <!--      </div>-->
-  <!--    </div>-->
-  <!--  </footer>-->
-
   <footer class="footer has-text-centered">
     Conoce más acerca de la iniciativa munical Women in Data Science (WiDS)
     <a class="link-footer" href="https://www.widsconference.org/">aquí</a>.
@@ -863,7 +826,6 @@ html, body {
   background: #EFF3F4;
   font-family: "Quatrocento Sans";
   font-size: 18px;
-  /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
