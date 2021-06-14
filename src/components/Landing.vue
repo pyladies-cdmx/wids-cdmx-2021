@@ -52,9 +52,7 @@
       </div>
       <br/>
       <div class="columns is-multiline">
-        <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
-          <br/>
-          <br/>
+        <div class="column is-6" data-aos="fade-right">
           <p>
             La conferencia mundial WiDS (Women in Data Science) tiene como objetivo inspirar y educar a lxs científicxs
             de datos de todo el mundo sin importar su género, así como dar apoyo a las mujeres presentes en la
@@ -64,12 +62,17 @@
             relacionadas con la ciencia de datos en distintos dominios y así conectar con otrxs en el campo.
           </p>
           <br/>
+          <p><strong>WiDS Ciudad de México</strong> es un evento independiente organizado por <a href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/" target="_blank">Pyladies CDMX</a> y
+            <a href="https://www.facebook.com/WiDSCommunity/" targer="_blank">Women in Data Sience, Power and Engineering</a>, como parte de la conferencia mundial WiDS organizada por la Universidad de Stanford y con un
+          estimado de 150+ ubicaciones en el mundo, y que presenta mujeres sobresalientes, haciendo trabajo sobresaliente
+          en el campo de la ciencia de datos. Todos los géneros son bienvenidos a asistir a todos los eventos de WiDS en
+          el mundo.</p>
           <div class="is-divider"></div>
         </div>
-        <div class="column is-6 right-image " data-aos="fade-left">
+        <div class="column is-6 right-image" data-aos="fade-left">
           <div class="contenido-responsivo">
             <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen frameborder="0" height="315"
+                    allowfullscreen frameborder="0" height="320"
                     src="https://www.youtube.com/embed/yObQ-odcIKc"
                     title="YouTube video player"
                     width="560"></iframe>
@@ -132,7 +135,9 @@
 
         <tr>
           <td>12:30 a 13:00</td>
-          <td><i>Por confirmar</i></td>
+          <td><p>Narrativas y poéticas con datos: Sonificación y</p>
+            <p>visualización de datos</p>
+          </td>
           <td><a href="#malitzin-cortes">Malitzin Cortés</a></td>
         </tr>
 
@@ -156,14 +161,14 @@
 
         <tr>
           <td>15:00 a 15:30</td>
-          <td>Accesibilidad para la visualización de datos, <i>A11y</i>  DataViz</td>
+          <td>Accesibilidad para la visualización de datos, <i>A11y</i> DataViz</td>
           <td><a href="#magaly-ruiz">Magaly Ruiz</a></td>
         </tr>
 
         <tr>
           <td>15:30 a 16:00</td>
           <td>La inmunología y R, grandes aliados</td>
-          <td><a href="#ana-villasenior">Ana Beatriz Villaseñor</a></td>
+          <td><a href="#karen-nunez">Karen Nuñez</a></td>
         </tr>
 
         <tr>
@@ -906,13 +911,13 @@ a:link {
 }
 
 a:visited {
-  color: #9494b8;
+  color: #00b140;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #006600;
+  color: #53284f;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -948,7 +953,7 @@ a.boton-registro:visited {
 }
 
 a.boton-registro:hover {
-  color: lightgrey;
+  color: #00b140;;
   background-color: transparent;
   text-decoration: underline;
 }
