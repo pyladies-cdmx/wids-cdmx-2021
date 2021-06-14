@@ -54,14 +54,20 @@
       <br/>
       <div class="columns is-multiline is-centered">
         <div class="column is-6">
-          <p><strong>WiDS Ciudad de México</strong> es un evento independiente organizado por <a href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/" target="_blank">Pyladies CDMX</a> y
-            <a href="https://www.facebook.com/WiDSCommunity/" targer="_blank">Women in Data Sience, Power and Engineering</a>, como parte de la conferencia mundial WiDS organizada por la Universidad de Stanford y con un
-            estimado de 150+ ubicaciones en el mundo, y que presenta a mujeres sobresalientes, haciendo trabajo sobresaliente
-            en el campo de la ciencia de datos. Todos los géneros son bienvenidos a asistir a todos los eventos de WiDS en
+          <p><strong>WiDS Ciudad de México</strong> es un evento independiente organizado por <a
+              href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/" target="_blank">Pyladies CDMX</a> y
+            <a href="https://www.facebook.com/WiDSCommunity/" targer="_blank">Women in Data Sience, Power and
+              Engineering</a>, como parte de la conferencia mundial WiDS organizada por la Universidad de Stanford y con
+            un
+            estimado de 150+ ubicaciones en el mundo, y que presenta a mujeres sobresalientes, haciendo trabajo
+            sobresaliente
+            en el campo de la ciencia de datos. Todos los géneros son bienvenidos a asistir a todos los eventos de WiDS
+            en
             el mundo.</p>
           <br>
           <p>
-            La conferencia mundial <a href="https://www.widsconference.org/" target="_blank">WiDS (Women in Data Science)</a> tiene como objetivo inspirar y educar a lxs científicxs
+            La conferencia mundial <a href="https://www.widsconference.org/" target="_blank">WiDS (Women in Data
+            Science)</a> tiene como objetivo inspirar y educar a lxs científicxs
             de datos de todo el mundo sin importar su género, así como dar apoyo a las mujeres presentes en la
             industria.</p>
           <br/>
@@ -71,8 +77,8 @@
           <br/>
           <div class="is-divider"></div>
         </div>
-      <div class="column is-5">
-        <br>
+        <div class="column is-5">
+          <br>
           <div class="contenido-responsivo">
             <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen frameborder="0" height="320"
@@ -111,7 +117,6 @@
       </div>
     </div>
   </div>
-
 
 
   <!-- Agenda -->
@@ -219,7 +224,7 @@
           <td>17:00 a 18:00</td>
           <td>Panel: Ciencia de datos más allá del código</td>
           <td>
-            <p><a href="#ivete-sanchez">Ivete Sánchez, </a></p>
+            <p><a href="#ivete-sanchez">Ivette Sánchez, </a></p>
             <p><a href="#angelina-alarcon">Angelina Alarcon, </a></p>
             <p><a href="#maria-paz">María de la Paz Rico, </a></p>
             <p><a href="#libertad-pantoja">Libertad Pantoja, </a></p>
@@ -661,14 +666,14 @@
           <div id="ana-villasenior" class="card">
             <div class="card-image">
               <figure class="image is-4by4">
-                <img class="imagen-ponente" src="@/assets/img/user.jpg">
+                <img class="imagen-ponente" src="@/assets/img/ana_villasenior.jpeg">
               </figure>
             </div>
             <div class="card-content">
               <p class="title is-4 has-text-centered">
-                <!--                <a onclick="document.getElementById('modal-ana').style.display='block'">-->
-                Ana Beatriz Villaseñor
-                <!--              </a>-->
+                <a onclick="document.getElementById('modal-ana').style.display='block'">
+                  Ana Beatriz Villaseñor
+                </a>
               </p>
               <div class="content">
                 <br>
@@ -676,6 +681,42 @@
             </div>
           </div>
         </div>
+        <div id="modal-ana" class="modal">
+          <div class="modal-background"></div>
+          <div class="modal-content is-tiny">
+            <div class="card interno">
+              <div class="card-image interno">
+                <figure class="image">
+                  <img class="imagen-ponente-interna" src="@/assets/img/ana_villasenior.jpeg">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="content">
+                    <p class="title is-4">Ana Beatriz Villaseñor</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <p>Mientras cursaba mi licenciatura, comencé mi experiencia de investigación trabajando con
+                    espermatogénesis y comencé a interesarme por la biología humana. Aprendí habilidades en
+                    biología celular y molecular adquiridas como resultado de trabajar en el laboratorio y manipular
+                    organismos modelo humanos. Amplié mis conocimientos en biología del cáncer realizando
+                    investigaciones en hepatocarcinogénesis durante mi estadía en el laboratorio de Saúl Villa-Treviño.
+                    Más tarde, me inscribí en un programa de maestría con la especialización en biología celular y
+                    adquirí conocimientos en bioinformática. Trabajé con microarrays para descifrar el efecto del
+                    TCDD en el empalme alternativo utilizando hepatocitos de ratón C57BL6 en colaboración con
+                    Guillermo Elizondo Azuela y Paul C. Boutros. F. En estos momentos, trabajo con enfermedades
+                    pulmonares para integrar datos de microarrays y RNA-seq para la caracterización de Enfermedad
+                    Pulmonar Obstructiva Crónica y Enfermedad Pulmonar Idiopática.</p>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button aria-label="close" class="modal-close is-large"
+                  onclick="document.getElementById('modal-ana').style.display='none'"></button>
+        </div>
+
 
         <div class="column is-3">
           <div id="angelina-alarcon" class="card">
@@ -722,7 +763,7 @@
     </div>
   </div>
 
-<!--  Patrocinadorxs-->
+  <!--  Patrocinadorxs-->
 
   <div id="patrocinadores" class="section">
     <div class="container">
@@ -754,39 +795,44 @@
 
 
   <!--  Footer-->
-  <footer class="footer">
-    <div class="container">
-      <div id="columns-footer" class="columns has-text-centered">
-        <div class="column is-2">
-          <img class="logo-pyladies-cdmx" src="@/assets/logos/pyladies_logo.png">
-        </div>
-        <div class="column is-1">
-          <p>
-            <a class="link-footer" href="https://www.facebook.com/pyladiescdmx" target="_blank">Facebook</a>
-          </p>
-        </div>
-        <div class="column is-1">
-          <p>
-            <a class="link-footer" href="https://www.instagram.com/pyladiescdmx/" target="_blank">Instagram</a>
-          </p>
-        </div>
-        <div class="column is-1">
-          <p>
-            <a class="link-footer" href="https://twitter.com/mxpyladies" target="_blank">Twitter</a>
-          </p>
-        </div>
-        <div class="column is-1">
-          <p>
-            <a class="link-footer" href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/" target="_blank">Meetup</a>
-          </p>
-        </div>
-        <div class="column is-1">
-          <p>
-            <a class="link-footer" href="mailto: mx@pyladies.com" target="_blank">mx@pyladies.com</a>
-          </p>
-        </div>
-      </div>
-    </div>
+  <!--  <footer class="footer">-->
+  <!--    <div class="container">-->
+  <!--      <div id="columns-footer" class="columns has-text-centered">-->
+  <!--        <div class="column is-2">-->
+  <!--          <img class="logo-pyladies-cdmx" src="@/assets/logos/pyladies_logo.png">-->
+  <!--        </div>-->
+  <!--        <div class="column is-1">-->
+  <!--          <p>-->
+  <!--            <a class="link-footer" href="https://www.facebook.com/pyladiescdmx" target="_blank">Facebook</a>-->
+  <!--          </p>-->
+  <!--        </div>-->
+  <!--        <div class="column is-1">-->
+  <!--          <p>-->
+  <!--            <a class="link-footer" href="https://www.instagram.com/pyladiescdmx/" target="_blank">Instagram</a>-->
+  <!--          </p>-->
+  <!--        </div>-->
+  <!--        <div class="column is-1">-->
+  <!--          <p>-->
+  <!--            <a class="link-footer" href="https://twitter.com/mxpyladies" target="_blank">Twitter</a>-->
+  <!--          </p>-->
+  <!--        </div>-->
+  <!--        <div class="column is-1">-->
+  <!--          <p>-->
+  <!--            <a class="link-footer" href="https://www.meetup.com/Mexico-City-Pyladies-Meetup/" target="_blank">Meetup</a>-->
+  <!--          </p>-->
+  <!--        </div>-->
+  <!--        <div class="column is-1">-->
+  <!--          <p>-->
+  <!--            <a class="link-footer" href="mailto: mx@pyladies.com" target="_blank">mx@pyladies.com</a>-->
+  <!--          </p>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </footer>-->
+
+  <footer class="footer has-text-centered">
+    Conoce más acerca de la iniciativa munical Women in Data Science (WiDS)
+    <a class="link-footer" href="https://www.widsconference.org/">aquí</a>.
   </footer>
 
 
@@ -977,13 +1023,13 @@ a:active {
 }
 
 a.link-footer:link {
-  color: white;
+  color: #53284f;
   background-color: transparent;
   text-decoration: none;
 }
 
 a.link-footer:visited {
-  color: white;
+  color: #53284f;
   background-color: transparent;
   text-decoration: none;
 }
