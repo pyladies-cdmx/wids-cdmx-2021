@@ -211,7 +211,7 @@
         <tr>
           <td>16:00 a 16:30</td>
           <td>Creando un app de descarga de series de tiempo financieras</td>
-          <td><a href="#tzolquin-gardunio">Tzolquin Garduño</a></td>
+          <td><a href="#tzolquin-gardunio">Tzolkin Garduño</a></td>
         </tr>
 
         <tr>
@@ -266,7 +266,7 @@
             <div class="card-content">
               <p class="title is-4 has-text-centered">
                 <a onclick="document.getElementById('modal-tzolkin').style.display='block'">
-                  Tzolquin Garduño
+                  Tzolkin Garduño
                 </a>
               </p>
             </div>
