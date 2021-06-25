@@ -224,7 +224,7 @@
           <td>17:00 a 18:00</td>
           <td>Panel: Ciencia de datos más allá del código</td>
           <td>
-            <p><a href="#ivete-sanchez">Ivette Sánchez, </a></p>
+            <p><a href="#ivete-sanchez">Ivete Sánchez, </a></p>
             <p><a href="#angelina-alarcon">Angelina Alarcon, </a></p>
             <p><a href="#maria-paz">María de la Paz Rico, </a></p>
             <p><a href="#libertad-pantoja">Libertad Pantoja, </a></p>
@@ -506,7 +506,7 @@
             <div class="card-content">
               <p class="title is-4 has-text-centered">
                 <a onclick="document.getElementById('modal-ivete').style.display='block'">
-                  Ivette Sánchez
+                  Ivete Sánchez
                 </a>
               </p>
             </div>
@@ -524,7 +524,7 @@
               <div class="card-content">
                 <div class="media">
                   <div class="content">
-                    <p class="title is-4">Ivette Sánchez</p>
+                    <p class="title is-4">Ivete Sánchez</p>
                   </div>
                 </div>
                 <div class="content">
