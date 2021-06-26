@@ -149,6 +149,7 @@
         <tr>
           <td>11:00 a 11:30</td>
           <td>
+            <p>Retransmisión de la charla:</p>
             <a href="https://www.youtube.com/watch?v=hdHdVW8eCJ8&list=PLHAk3jHXWpxL5M8AqtSGhfIPH5QeVcvhT&index=7"
                target="_blank">
               <p>¿Qué significa tener un algoritmo robusto?</p>
@@ -181,6 +182,7 @@
         <tr>
           <td>13:00 a 13:30</td>
           <td>
+            <p>Retransmisión de la charla:</p>
             <a href="https://www.youtube.com/watch?v=QdVMZXWWQh0&list=PLHAk3jHXWpxL5M8AqtSGhfIPH5QeVcvhT&index=29"
                target="_blank">
               <p>Visualización de Datos como Medio Exploratorio:</p>
